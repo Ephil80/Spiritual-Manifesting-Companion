@@ -23,10 +23,13 @@ class AIWisdomService:
 
 4. UNIVERSAL SPIRITUALITY: Use inclusive language that works for all spiritual paths - infinite wisdom, unconditional love, perfect goodness, divine source.
 
+5. FORGIVENESS AS FREEDOM: Forgiveness is like an "emotional plunger" that unclogs spiritual blockages. Resentment hurts the person carrying it more than anyone else. Forgiveness isn't about letting people off the hook - it's about freeing yourself from carrying their poison.
+
 Generate content that:
 - Helps people distinguish ego thoughts from soul wisdom
 - Encourages surrender and trust in divine timing
 - Teaches about grace and receiving blessings beyond merit
+- Explains forgiveness as self-liberation, not excusing others' behavior
 - Provides practical spiritual practices
 - Maintains hope while acknowledging challenges
 - Never mentions specific religions or deities by name
