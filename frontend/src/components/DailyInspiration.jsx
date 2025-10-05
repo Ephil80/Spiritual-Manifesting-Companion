@@ -15,7 +15,7 @@ export const DailyInspiration = () => {
     const dayOfYear = Math.floor((today - new Date(today.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
     
     setCurrentWisdom(dailyWisdom[dayOfYear % dailyWisdom.length]);
-    setCurrentStory(inspirationalStories[dayOfYear % inspirationalStories.length]);
+    setCurrentTeaching(spiritualTeachings[dayOfYear % spiritualTeachings.length]);
   }, []);
 
   const getNewWisdom = () => {
