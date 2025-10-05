@@ -41,6 +41,34 @@ const Home = () => {
         </div>
       </header>
 
+      {/* Philosophy Section */}
+      <div className="max-w-6xl mx-auto px-4 py-6">
+        <div className="bg-gradient-to-r from-indigo-50 via-purple-50 to-pink-50 p-8 rounded-2xl border border-indigo-100 mb-8">
+          <div className="text-center">
+            <h2 className="text-2xl font-semibold text-gray-800 mb-4">Understanding the Divine Design</h2>
+            <div className="max-w-4xl mx-auto text-gray-700 space-y-4">
+              <p className="text-lg leading-relaxed">
+                Everything in the universe has a <span className="font-semibold text-indigo-700">Divine Design</span> - and we are no different. 
+                Each of us has a unique divine blueprint for our highest good and greatest joy.
+              </p>
+              <p className="text-lg leading-relaxed">
+                The challenge arises when our <span className="font-semibold text-red-600">ego</span> (Edging God Out) decides it knows better than this divine wisdom. 
+                The Divine Design honors our free will and cannot override our choices, even when they lead us away from our highest path.
+              </p>
+              <p className="text-lg leading-relaxed">
+                When we align with the Divine Design through <span className="font-semibold text-purple-600">gratitude, blessings, surrender, and conscious manifestation</span>, 
+                we open ourselves to divine guidance and allow our highest good to unfold naturally.
+              </p>
+              <div className="bg-white/80 p-4 rounded-lg mt-6">
+                <p className="text-indigo-800 italic font-medium">
+                  "Trust the Divine Design. Your ego may think it knows the way, but your soul knows the truth."
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Main Content */}
       <main className="max-w-6xl mx-auto px-4 py-8">
         <Tabs defaultValue="gratitude" className="w-full">
