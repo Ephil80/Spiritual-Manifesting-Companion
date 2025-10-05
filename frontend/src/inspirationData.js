@@ -39,6 +39,13 @@ export const spiritualTeachings = [
     reflection: "True strength is knowing when to act and when to surrender. Divine timing is always perfect."
   },
   {
+    title: "Divine Design's Transformative Power",
+    principle: "Divine Design can create beauty from any chaos, while ego can create chaos from any beauty",
+    teaching: "The ego doesn't have to create problems for Divine Design to work - but when it does, Divine Design has unlimited power to transform any situation into something beautiful. A car crash caused by ego's recklessness can become the meeting point for your soulmate. A job loss from ego's poor choices can redirect you to your true calling. Conversely, your ego can take the most perfect relationship and create problems through jealousy, control, or fear.",
+    application: "When facing any difficult situation - whether caused by your ego or circumstances beyond your control - pause and ask: 'How is Divine Design going to create beauty from this?' Look for the hidden gifts, lessons, and opportunities emerging from the chaos.",
+    reflection: "Ego creates problems from blessings. Divine Design creates blessings from problems. Which force will you align with today?"
+  },
+  {
     title: "Gratitude as Spiritual Practice",
     principle: "Gratitude shifts us from scarcity consciousness to abundance alignment",
     teaching: "Gratitude is not just positive thinking - it's a powerful spiritual practice that aligns our energy with divine abundance. When we appreciate what we have, we open channels for more blessings to flow.",
