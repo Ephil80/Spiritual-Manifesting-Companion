@@ -10,13 +10,41 @@ export const DailyInspiration = () => {
   const [showFullTeaching, setShowFullTeaching] = useState(false);
 
   useEffect(() => {
-    // Get today's wisdom and story based on date
-    const today = new Date();
-    const dayOfYear = Math.floor((today - new Date(today.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
-    
-    setCurrentWisdom(dailyWisdom[dayOfYear % dailyWisdom.length]);
-    setCurrentTeaching(spiritualTeachings[dayOfYear % spiritualTeachings.length]);
+    // Fetch AI-generated daily wisdom and teaching
+    fetchDailyContent();
   }, []);
+
+  const fetchDailyContent = async () => {
+    try {
+      const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
+      const API = `${BACKEND_URL}/api`;
+      
+      // Fetch daily wisdom
+      const wisdomResponse = await fetch(`${API}/daily-wisdom`);
+      if (wisdomResponse.ok) {
+        const wisdomData = await wisdomResponse.json();
+        setCurrentWisdom(wisdomData);
+      } else {
+        // Fallback to static content if API fails
+        setCurrentWisdom(dailyWisdom[0]);
+      }
+      
+      // Fetch spiritual teaching
+      const teachingResponse = await fetch(`${API}/spiritual-teaching`);
+      if (teachingResponse.ok) {
+        const teachingData = await teachingResponse.json();
+        setCurrentTeaching(teachingData);
+      } else {
+        // Fallback to static content if API fails
+        setCurrentTeaching(spiritualTeachings[0]);
+      }
+    } catch (error) {
+      console.error('Error fetching daily content:', error);
+      // Fallback to static content
+      setCurrentWisdom(dailyWisdom[0]);
+      setCurrentTeaching(spiritualTeachings[0]);
+    }
+  };
 
   const getNewWisdom = () => {
     const randomIndex = Math.floor(Math.random() * dailyWisdom.length);
