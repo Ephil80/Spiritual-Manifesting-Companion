@@ -61,16 +61,16 @@ export const SurrenderPractice = () => {
       {showForm && (
         <Card className="border-teal-200 shadow-lg">
           <CardHeader>
-            <CardTitle className="text-lg text-teal-700">Surrender to the Divine Design</CardTitle>
+            <CardTitle className="text-lg text-teal-700">Write a Letter to Divine Design</CardTitle>
           </CardHeader>
           <CardContent className="space-y-4">
             <div>
-              <p className="text-sm text-gray-600 mb-2">What situation would you like to surrender?</p>
+              <p className="text-sm text-gray-600 mb-2">Write about the situation: What's happening? What have you tried? How do you feel? Then surrender it completely.</p>
               <Textarea
                 value={newSurrender}
                 onChange={(e) => setNewSurrender(e.target.value)}
-                placeholder="I surrender my concerns about..."
-                className="min-h-[100px] focus:ring-teal-400 focus:border-teal-400"
+                placeholder="Dear Divine Design, I'm struggling with... I've tried... I feel... I surrender this to you completely..."
+                className="min-h-[120px] focus:ring-teal-400 focus:border-teal-400"
               />
             </div>
             
