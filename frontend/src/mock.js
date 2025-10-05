@@ -76,9 +76,9 @@ export const mockEntries = {
     },
     {
       id: '2',
-      situation: 'My career uncertainty', 
+      situation: 'Dear Divine Design, I am facing so much uncertainty about my career path. I feel lost and don\'t know which direction to take. I\'ve been applying for jobs, networking, and trying to figure out my purpose, but I still feel confused and anxious about my future. The fear of making the wrong choice is paralyzing me. I surrender my career uncertainty to you, trusting that you will guide me to the path that serves my highest purpose.',
       date: '2025-01-14',
-      template: 'I surrender my career uncertainty in harmony with all under grace in a perfect way in accordance with the divine design. Thank you for hearing me.'
+      template: 'Letter to Divine Design: Dear Divine Design, I am facing so much uncertainty about my career path. I feel lost and don\'t know which direction to take. I\'ve been applying for jobs, networking, and trying to figure out my purpose, but I still feel confused and anxious about my future. The fear of making the wrong choice is paralyzing me. I surrender my career uncertainty to you, trusting that you will guide me to the path that serves my highest purpose.'
     }
   ],
   
