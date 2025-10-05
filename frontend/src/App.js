@@ -159,6 +159,10 @@ const Home = () => {
             <BlessTheCreator />
           </TabsContent>
           
+          <TabsContent value="forgiveness">
+            <ForgivenessPractice />
+          </TabsContent>
+          
           <TabsContent value="gratitude">
             <GratitudeJournal />
           </TabsContent>
