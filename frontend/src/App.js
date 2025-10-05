@@ -65,7 +65,7 @@ const Home = () => {
                 Conversely, <span className="font-semibold text-red-600">ego can create chaos from beauty</span> - turning blessings into problems through fear and control.
               </p>
               <p className="text-lg leading-relaxed">
-                When we align with the Divine Design through <span className="font-semibold text-purple-600">gratitude, blessings, surrender, and conscious manifestation</span>, 
+                When we align with the Divine Design through <span className="font-semibold text-purple-600">gratitude, blessings, forgiveness, surrender, and conscious manifestation</span>, 
                 we open ourselves to divine guidance and allow our highest good to unfold naturally.
               </p>
               <div className="bg-white/80 p-4 rounded-lg mt-6">
