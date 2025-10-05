@@ -1,5 +1,24 @@
 // Mock data for Divine Design Spiritual Companion
 
+export const mockForgiveness = [
+  {
+    id: '1',
+    person: 'My former business partner',
+    situation: 'They took credit for my work and caused me to lose a major promotion',
+    feelings: 'This resentment has been eating at me for months, affecting my confidence and blocking me from trusting new partnerships',
+    date: '2025-01-15',
+    template: 'I forgive my former business partner and release this resentment from my heart. I choose my emotional freedom over carrying this burden. This forgiveness is my gift to myself.'
+  },
+  {
+    id: '2',
+    person: 'My ex-spouse',
+    situation: 'The way our marriage ended with lies and betrayal',
+    feelings: 'Carrying this anger has made it hard for me to open my heart to new love and trust',
+    date: '2025-01-14',
+    template: 'I forgive my ex-spouse and release this resentment from my heart. I choose my emotional freedom over carrying this burden. This forgiveness is my gift to myself.'
+  }
+];
+
 export const mockEntries = {
   gratitude: [
     {
