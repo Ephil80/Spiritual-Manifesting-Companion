@@ -23,7 +23,7 @@ export const mockEntries = {
       person: 'My mother',
       blessing: 'perfect health and inner peace',
       date: '2025-01-15',
-      template: 'I desire perfect health and inner peace for my mother in harmony with all under grace in a perfect way in accordance with the divine design. Thank you for hearing me.'
+      template: 'I bless my mother with the Divine Design of perfect health and inner peace. May she receive her highest good.'
     },
     {
       id: '2',
