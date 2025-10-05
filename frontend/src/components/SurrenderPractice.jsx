@@ -76,9 +76,9 @@ export const SurrenderPractice = () => {
             
             {newSurrender && (
               <div className="bg-teal-50 p-4 rounded-lg">
-                <p className="text-sm text-teal-700 font-medium mb-2">Divine Surrender:</p>
+                <p className="text-sm text-teal-700 font-medium mb-2">Your Letter to Divine Design:</p>
                 <p className="text-sm text-teal-600 italic">
-                  "I surrender {newSurrender} in harmony with all under grace in a perfect way in accordance with the divine design. Thank you for hearing me."
+                  This heartfelt letter will be surrendered to Divine Design. Trust that infinite wisdom and love are now working on solutions beyond your ego's imagination.
                 </p>
               </div>
             )}
