@@ -12,6 +12,11 @@ export const dailyWisdom = [
     practice: "Before making any decision today, pause and ask: 'Is this my ego or my soul speaking?'"
   },
   {
+    quote: "The ego creates chaos, but Divine Design creates beauty from any situation - even the messes your ego makes.",
+    insight: "Your ego might cause a 'car crash' in your life - a failed relationship, job loss, financial crisis. But Divine Design has the power to transform any chaos into something beautiful for your growth. Conversely, your ego can take the most beautiful blessings and turn them into problems through fear, control, and ingratitude.",
+    practice: "When facing any challenge today, ask: 'How can Divine Design create beauty from this situation?' Trust that even ego-created problems can become divine opportunities."
+  },
+  {
     quote: "Gratitude is the key that unlocks the door to divine abundance.",
     insight: "When you focus on what you lack, you align with scarcity. When you focus on your blessings, you align with the infinite abundance of the Divine Design.",
     practice: "Start your morning by naming three things you're grateful for before your ego can list what's wrong."
