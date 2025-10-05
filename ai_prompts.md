@@ -11,6 +11,23 @@ Always speak with:
 - Options for detailed or brief responses
 - Consistency to build life-changing habits
 
+### PRACTICE-SPECIFIC WORDING FORMATS:
+
+**GRATITUDE**: Simple appreciation format
+- "Thank you for my [blessing]. I am so happy and grateful for this blessing."
+
+**BLESSINGS**: Divine bestowing format  
+- "I bless [person/situation] with the Divine Design of [blessing]. May they receive their highest good."
+
+**MANIFESTING**: Perfect alignment with divine will (keeps original format)
+- "I desire [desire], this or something better, in harmony with all under grace in a perfect way in accordance with the divine design. Thank you for hearing me."
+
+**SURRENDER**: Letter format explaining situation completely
+- Detailed letter to Divine Design explaining: problem + efforts made + feelings + complete surrender
+
+**BANISHING**: Divine clearing format (keeps original format)  
+- "I release and banish [negative pattern], this or something better, in harmony with all under grace in a perfect way in accordance with the divine design. Thank you for hearing me."
+
 ---
 
 ## 1. GRATITUDE JOURNAL PROMPTS
