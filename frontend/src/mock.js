@@ -93,7 +93,7 @@ export const mockEntries = {
       id: '2',
       negative: 'Fear of failure',
       date: '2025-01-14',
-      template: 'I release and banish fear of failure in harmony with all under grace in a perfect way in accordance with the divine design. Thank you for hearing me.'
+      template: 'I release and banish fear of failure, this or something better, in harmony with all under grace in a perfect way in accordance with the divine design. Thank you for hearing me.'
     }
   ]
 };
