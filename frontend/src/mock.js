@@ -56,7 +56,7 @@ export const mockEntries = {
       category: 'finances',
       desire: 'Financial abundance and security',
       date: '2025-01-15', 
-      template: 'I desire financial abundance and security in harmony with all under grace in a perfect way in accordance with the divine design. Thank you for hearing me.'
+      template: 'I desire financial abundance and security, this or something better, in harmony with all under grace in a perfect way in accordance with the divine design. Thank you for hearing me.'
     },
     {
       id: '3',
