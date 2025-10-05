@@ -60,7 +60,8 @@ Create a unique spiritual teaching that focuses on one of these themes:
 2. Grace and receiving blessings beyond what we think we deserve
 3. Divine transformation (beauty from chaos, or ego creating chaos from beauty)
 4. Surrender and trust in infinite wisdom
-5. Practical spirituality for daily life
+5. Forgiveness as emotional freedom (your gift to yourself, not letting others off the hook)
+6. Practical spirituality for daily life
 
 Include the seed: {date_seed} in your inspiration but don't mention it in the response.
 
