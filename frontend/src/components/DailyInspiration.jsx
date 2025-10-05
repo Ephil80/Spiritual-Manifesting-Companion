@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Card, CardHeader, CardTitle, CardContent } from './ui/card';
 import { Button } from './ui/button';
 import { Star, RefreshCw, Calendar } from 'lucide-react';
-import { dailyWisdom, inspirationalStories } from '../inspirationData';
+import { dailyWisdom, spiritualTeachings } from '../inspirationData';
 
 export const DailyInspiration = () => {
   const [currentWisdom, setCurrentWisdom] = useState(null);
