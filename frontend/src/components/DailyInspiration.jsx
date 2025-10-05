@@ -67,18 +67,18 @@ export const DailyInspiration = () => {
         </CardContent>
       </Card>
 
-      {/* Daily Story Card */}
+      {/* Spiritual Teaching Card */}
       <Card className="bg-gradient-to-r from-purple-50 to-pink-50 border-purple-200">
         <CardHeader>
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <Calendar className="w-5 h-5 text-purple-500" />
-              <CardTitle className="text-lg text-purple-800">Inspirational Story</CardTitle>
+              <CardTitle className="text-lg text-purple-800">Spiritual Teaching</CardTitle>
             </div>
             <Button 
               variant="ghost" 
               size="sm" 
-              onClick={getNewStory}
+              onClick={getNewTeaching}
               className="text-purple-600 hover:text-purple-800 hover:bg-purple-100"
             >
               <RefreshCw className="w-4 h-4" />
@@ -86,35 +86,46 @@ export const DailyInspiration = () => {
           </div>
         </CardHeader>
         <CardContent>
-          <h3 className="text-xl font-semibold text-purple-800 mb-3">{currentStory.title}</h3>
+          <h3 className="text-xl font-semibold text-purple-800 mb-3">{currentTeaching.title}</h3>
           
           <div className="text-purple-700 space-y-4">
-            <p className="leading-relaxed">{currentStory.excerpt}</p>
+            <div className="bg-white/70 p-4 rounded-lg">
+              <p className="text-purple-800 font-medium mb-2">Core Principle:</p>
+              <p className="leading-relaxed text-sm">{currentTeaching.principle}</p>
+            </div>
             
-            {!showStory && (
+            {!showFullTeaching && (
               <Button 
-                onClick={() => setShowStory(true)}
+                onClick={() => setShowFullTeaching(true)}
                 className="bg-purple-500 hover:bg-purple-600 text-white"
               >
-                Read Full Story
+                Explore This Teaching
               </Button>
             )}
             
-            {showStory && (
+            {showFullTeaching && (
               <div className="space-y-4">
-                <p className="leading-relaxed">{currentStory.fullStory}</p>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <p className="text-purple-800 font-medium mb-2">Teaching:</p>
+                  <p className="leading-relaxed text-sm">{currentTeaching.teaching}</p>
+                </div>
                 
-                <div className="bg-white/70 p-4 rounded-lg mt-4">
-                  <p className="text-purple-800 font-medium mb-2">Divine Lesson:</p>
-                  <p className="text-purple-700 text-sm italic">{currentStory.lesson}</p>
+                <div className="bg-white/70 p-4 rounded-lg">
+                  <p className="text-purple-800 font-medium mb-2">How to Apply Today:</p>
+                  <p className="leading-relaxed text-sm">{currentTeaching.application}</p>
+                </div>
+                
+                <div className="bg-purple-100 p-4 rounded-lg">
+                  <p className="text-purple-800 font-medium mb-2">Reflection:</p>
+                  <p className="text-purple-700 text-sm italic">"{currentTeaching.reflection}"</p>
                 </div>
                 
                 <Button 
                   variant="outline" 
-                  onClick={() => setShowStory(false)}
+                  onClick={() => setShowFullTeaching(false)}
                   className="border-purple-300 text-purple-600 hover:bg-purple-50"
                 >
-                  Collapse Story
+                  Collapse Teaching
                 </Button>
               </div>
             )}
