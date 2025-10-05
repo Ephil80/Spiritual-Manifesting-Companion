@@ -28,7 +28,7 @@ export const SurrenderPractice = () => {
     <div className="space-y-6">
       <div className="flex items-center justify-between">
         <div className="flex items-center space-x-2">
-          <Dove className="w-6 h-6 text-teal-500" />
+          <Bird className="w-6 h-6 text-teal-500" />
           <h2 className="text-2xl font-semibold text-gray-800">Surrender Practice</h2>
         </div>
         <Button 
