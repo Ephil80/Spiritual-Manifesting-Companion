@@ -51,6 +51,13 @@ export const spiritualTeachings = [
     reflection: "Ego creates problems from blessings. Divine Design creates blessings from problems. Which force will you align with today?"
   },
   {
+    title: "The Power of Grace",
+    principle: "Grace flows from infinite love and wisdom, giving us what we need beyond what we think we deserve",
+    teaching: "Grace is the expression of infinite goodness that transcends human concepts of earning or deserving. While your ego creates elaborate systems of worthiness, the source of all blessings - infinite wisdom, unconditional love, and perfect goodness - operates beyond such limitations. Grace gives you exactly what serves your highest evolution, whether your ego believes you've 'earned' it or not.",
+    application: "Notice when your ego says 'I don't deserve this blessing' or 'I haven't earned this yet.' In those moments, consciously choose to receive with gratitude, recognizing grace as a gift from infinite love that knows your true worth.",
+    reflection: "Grace doesn't require your perfection - it flows from infinite perfection. You are loved beyond your ego's understanding."
+  },
+  {
     title: "Gratitude as Spiritual Practice",
     principle: "Gratitude shifts us from scarcity consciousness to abundance alignment",
     teaching: "Gratitude is not just positive thinking - it's a powerful spiritual practice that aligns our energy with divine abundance. When we appreciate what we have, we open channels for more blessings to flow.",
