@@ -130,6 +130,10 @@ const Home = () => {
             <DailyInspiration />
           </TabsContent>
           
+          <TabsContent value="reminders">
+            <NotificationSystem />
+          </TabsContent>
+          
           <TabsContent value="gratitude">
             <GratitudeJournal />
           </TabsContent>
