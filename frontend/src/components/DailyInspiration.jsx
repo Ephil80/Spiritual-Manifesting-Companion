@@ -46,14 +46,40 @@ export const DailyInspiration = () => {
     }
   };
 
-  const getNewWisdom = () => {
-    const randomIndex = Math.floor(Math.random() * dailyWisdom.length);
-    setCurrentWisdom(dailyWisdom[randomIndex]);
+  const getNewWisdom = async () => {
+    try {
+      const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
+      const API = `${BACKEND_URL}/api`;
+      
+      const response = await fetch(`${API}/daily-wisdom`);
+      if (response.ok) {
+        const wisdomData = await response.json();
+        setCurrentWisdom(wisdomData);
+      }
+    } catch (error) {
+      console.error('Error fetching new wisdom:', error);
+      // Fallback to random static content
+      const randomIndex = Math.floor(Math.random() * dailyWisdom.length);
+      setCurrentWisdom(dailyWisdom[randomIndex]);
+    }
   };
 
-  const getNewTeaching = () => {
-    const randomIndex = Math.floor(Math.random() * spiritualTeachings.length);
-    setCurrentTeaching(spiritualTeachings[randomIndex]);
+  const getNewTeaching = async () => {
+    try {
+      const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
+      const API = `${BACKEND_URL}/api`;
+      
+      const response = await fetch(`${API}/spiritual-teaching`);
+      if (response.ok) {
+        const teachingData = await response.json();
+        setCurrentTeaching(teachingData);
+      }
+    } catch (error) {
+      console.error('Error fetching new teaching:', error);
+      // Fallback to random static content
+      const randomIndex = Math.floor(Math.random() * spiritualTeachings.length);
+      setCurrentTeaching(spiritualTeachings[randomIndex]);
+    }
   };
 
   if (!currentWisdom || !currentTeaching) return null;
