@@ -8,7 +8,7 @@ import { BlessingPractice } from "./components/BlessingPractice";
 import { ManifestingJournal } from "./components/ManifestingJournal";
 import { SurrenderPractice } from "./components/SurrenderPractice";
 import { BanishingPractice } from "./components/BanishingPractice";
-import { Heart, Users, Sparkles, Dove, Shield } from "lucide-react";
+import { Heart, Users, Sparkles, Bird, Shield } from "lucide-react";
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 const API = `${BACKEND_URL}/api`;
