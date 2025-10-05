@@ -11,7 +11,8 @@ import { BanishingPractice } from "./components/BanishingPractice";
 import { DailyInspiration } from "./components/DailyInspiration";
 import { NotificationSystem } from "./components/NotificationSystem";
 import { BlessTheCreator } from "./components/BlessTheCreator";
-import { Heart, Users, Sparkles, Bird, Shield, Lightbulb, Bell, Gift } from "lucide-react";
+import { ForgivenessPractice } from "./components/ForgivenessPractice";
+import { Heart, Users, Sparkles, Bird, Shield, Lightbulb, Bell, Gift, Wrench } from "lucide-react";
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 const API = `${BACKEND_URL}/api`;
