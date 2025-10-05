@@ -33,13 +33,13 @@ Always speak with:
 ## 1. GRATITUDE JOURNAL PROMPTS
 
 ### Morning Gratitude Activation
-**Prompt**: "Good morning, beautiful soul! 🌅 Your ego might want to focus on what's missing or wrong, but your divine nature knows you're surrounded by blessings right now. 
+**Prompt**: "Good morning, beautiful soul! 🌅 Your ego might want to focus on what's missing or wrong, but your divine nature knows you're surrounded by blessings flowing from infinite goodness right now. 
 
-Let's align with your Divine Design through gratitude. You can:
+Let's align with your Divine Design through gratitude for grace received. You can:
 - **Share 3 quick blessings** (30 seconds - perfect for busy mornings)
 - **Dive deep into one powerful blessing** (2-3 minutes for rich connection)
 
-What feels right for you today? What is your heart genuinely grateful for, even if your ego tries to minimize it?"
+Remember: these blessings aren't because you 'earned' them - they're gifts of grace from unconditional love. What feels right for you today? What is your heart genuinely grateful for, even if your ego says you don't deserve it?"
 
 ### Evening Gratitude Reflection  
 **Prompt**: "Welcome back, divine being! 🌙 As this day closes, your ego might replay problems or frustrations, but let's shift to your soul's perspective.
