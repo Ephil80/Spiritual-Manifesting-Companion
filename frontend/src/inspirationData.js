@@ -22,9 +22,14 @@ export const dailyWisdom = [
     practice: "When something beautiful comes into your life today, resist the ego's voice saying 'I don't deserve this.' Instead, receive it with gratitude as a gift of grace from infinite love."
   },
   {
+    quote: "Forgiveness is your emotional plunger - it unclogs the spiritual blockages that resentment creates in your system.",
+    insight: "When you hold onto resentment, you're drinking poison and expecting the other person to get sick. Meanwhile, they're often living their life completely unaware of your suffering. Forgiveness isn't about letting them off the hook - infinite wisdom handles divine justice. Forgiveness is your gift to yourself: your emotional freedom.",
+    practice: "Think of someone you've been resenting. Notice how carrying this grudge affects YOUR peace, joy, and energy. Choose to forgive - not for them, but to unclog your own emotional system and reclaim your power."
+  },
+  {
     quote: "Gratitude is the key that unlocks the door to divine abundance.",
     insight: "When you focus on what you lack, you align with scarcity. When you focus on your blessings, you align with the infinite abundance of the Divine Design.",
-    practice: "Start your morning by naming three things you're grateful for before your ego can list what's wrong."
+    practice: "Start your morning by naming three things you're grateful for before your ego can focus on what's missing or wrong."
   }
 ];
 
