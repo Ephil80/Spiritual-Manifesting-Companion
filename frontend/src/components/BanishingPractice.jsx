@@ -78,7 +78,7 @@ export const BanishingPractice = () => {
               <div className="bg-red-50 p-4 rounded-lg">
                 <p className="text-sm text-red-700 font-medium mb-2">Divine Banishing:</p>
                 <p className="text-sm text-red-600 italic">
-                  "I release and banish {newBanish} in harmony with all under grace in a perfect way in accordance with the divine design. Thank you for hearing me."
+                  "I release and banish {newBanish}, this or something better, in harmony with all under grace in a perfect way in accordance with the divine design. Thank you for hearing me."
                 </p>
               </div>
             )}
