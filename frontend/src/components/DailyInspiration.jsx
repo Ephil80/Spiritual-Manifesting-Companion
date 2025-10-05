@@ -144,7 +144,7 @@ export const DailyInspiration = () => {
             <div className="bg-white/70 p-4 rounded-lg">
               <p className="text-emerald-800 font-semibold mb-2">Today's Affirmation:</p>
               <p className="text-emerald-700 italic">
-                "I choose Divine Design over ego chaos. I am aligned with my highest good."
+                "I am loved by infinite goodness. Through grace, I receive blessings beyond what I think I deserve. I choose Divine Design over ego chaos."
               </p>
             </div>
           </div>
