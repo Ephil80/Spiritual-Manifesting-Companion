@@ -23,12 +23,12 @@ export const DailyInspiration = () => {
     setCurrentWisdom(dailyWisdom[randomIndex]);
   };
 
-  const getNewStory = () => {
-    const randomIndex = Math.floor(Math.random() * inspirationalStories.length);
-    setCurrentStory(inspirationalStories[randomIndex]);
+  const getNewTeaching = () => {
+    const randomIndex = Math.floor(Math.random() * spiritualTeachings.length);
+    setCurrentTeaching(spiritualTeachings[randomIndex]);
   };
 
-  if (!currentWisdom || !currentStory) return null;
+  if (!currentWisdom || !currentTeaching) return null;
 
   return (
     <div className="space-y-6">
