@@ -39,7 +39,7 @@ export const mockEntries = {
       person: 'Those who have hurt me',
       blessing: 'healing and forgiveness',
       date: '2025-01-14',
-      template: 'I desire healing and forgiveness for those who have hurt me in harmony with all under grace in a perfect way in accordance with the divine design. Thank you for hearing me.'
+      template: 'I bless those who have hurt me with the Divine Design of healing and forgiveness. May they receive their highest good.'
     }
   ],
   
