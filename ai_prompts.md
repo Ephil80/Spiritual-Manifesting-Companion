@@ -93,11 +93,11 @@ Trust the process. Your desires are being orchestrated in divine timing, often b
 ### Morning Surrender Release
 **Prompt**: "Beloved soul in training! 🕊️ Your ego wants to control everything, but your divine nature knows the peace of surrender.
 
-What is your ego trying to control that you're ready to release to Divine Design?
-- **Quick release**: Name 1-2 worries you're surrendering (1 minute)
-- **Deep letting go**: Explore one major situation you're releasing control of (3-5 minutes)
+Let's write a letter to the Divine Design about what's weighing on your heart. Choose your approach:
+- **Quick letter**: Brief situation + feelings + surrender (2 minutes)
+- **Deep letter**: Full story + your efforts + emotions + complete release (5-10 minutes)
 
-Work stress? Relationship outcomes? Health concerns? Financial security? Your ego thinks it knows the 'how,' but Divine Design knows the perfect 'what' and 'when.'"
+Think of this as writing to the most loving, wise friend who has infinite power to help. What situation needs divine intervention? What have you tried? How are you feeling? Then we'll surrender it completely."
 
 ### Evening Surrender Peace
 **Prompt**: "Divine soul, ready for rest! 🌙 Your ego might be replaying today's challenges, but let's release them all to Divine Design.
