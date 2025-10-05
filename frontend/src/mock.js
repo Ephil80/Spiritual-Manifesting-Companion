@@ -70,9 +70,9 @@ export const mockEntries = {
   surrender: [
     {
       id: '1',
-      situation: 'My relationship challenges',
+      situation: 'Dear Divine Design, I am struggling with challenges in my relationship. My partner and I keep having the same arguments and I feel like we\'re growing apart. I\'ve tried talking openly, suggesting counseling, and working on myself, but nothing seems to help. I feel frustrated, sad, and sometimes hopeless about our future together. I surrender this situation to you completely, trusting that you know what\'s best for both of our highest good.',
       date: '2025-01-15',
-      template: 'I surrender my relationship challenges in harmony with all under grace in a perfect way in accordance with the divine design. Thank you for hearing me.'
+      template: 'Letter to Divine Design: Dear Divine Design, I am struggling with challenges in my relationship. My partner and I keep having the same arguments and I feel like we\'re growing apart. I\'ve tried talking openly, suggesting counseling, and working on myself, but nothing seems to help. I feel frustrated, sad, and sometimes hopeless about our future together. I surrender this situation to you completely, trusting that you know what\'s best for both of our highest good.'
     },
     {
       id: '2',
