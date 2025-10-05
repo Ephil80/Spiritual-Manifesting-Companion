@@ -18,12 +18,27 @@ export const dailyWisdom = [
   }
 ];
 
-export const inspirationalStories = [
+export const spiritualTeachings = [
   {
-    title: "The Businessman Who Surrendered His Empire",
-    excerpt: "Marcus built a multi-million dollar company through sheer will and ego-driven ambition. But when everything started crashing down, he learned the difference between forcing outcomes and flowing with Divine Design...",
-    fullStory: "Marcus had always prided himself on being a 'self-made' man. His tech company was worth 50 million dollars, and he worked 80-hour weeks to maintain control over every detail. Then the market crashed. Investors pulled out. Key employees left. Within six months, Marcus was facing bankruptcy. One night, exhausted and defeated, Marcus got on his knees and surrendered everything to Divine Design. Within a week, an unexpected partnership opportunity arose that not only saved his company but transformed it into something that served millions of people.",
-    lesson: "Sometimes what feels like loss is actually Divine Design clearing space for something infinitely better. Surrender doesn't mean giving up - it means giving over to wisdom greater than your ego."
+    title: "The Nature of Ego vs Divine Design",
+    principle: "Understanding the fundamental difference between ego-driven living and Divine Design alignment",
+    teaching: "The ego operates from fear, control, and separation. It believes it must force outcomes and fight for survival. Divine Design operates from love, flow, and unity. It knows that everything unfolds in perfect timing for our highest good.",
+    application: "Today, notice when you're operating from ego (forcing, controlling, worrying) versus soul (trusting, flowing, allowing). Each time you catch yourself in ego mode, pause and ask: 'What would Divine Design do here?'",
+    reflection: "The ego says 'I must make it happen.' Divine Design says 'I allow it to happen through me.'"
+  },
+  {
+    title: "The Power of Surrender",
+    principle: "Surrendering control opens the door to divine solutions beyond our limited perspective",
+    teaching: "Surrender is not giving up or being passive. It's actively releasing our need to control outcomes while remaining open to inspired action. When we surrender, we step out of the way and allow Divine Design to work through us.",
+    application: "When facing a challenge today, first try your best human efforts, then surrender the outcome completely. Write a letter to Divine Design explaining the situation and your feelings, then release it with trust.",
+    reflection: "True strength is knowing when to act and when to surrender. Divine timing is always perfect."
+  },
+  {
+    title: "Gratitude as Spiritual Practice",
+    principle: "Gratitude shifts us from scarcity consciousness to abundance alignment",
+    teaching: "Gratitude is not just positive thinking - it's a powerful spiritual practice that aligns our energy with divine abundance. When we appreciate what we have, we open channels for more blessings to flow.",
+    application: "Start each day by genuinely feeling grateful for three specific blessings before your mind can focus on what's missing or wrong. Feel the appreciation in your heart, not just your head.",
+    reflection: "What we appreciate, appreciates. Gratitude is the fastest way to shift from ego's lack to soul's abundance."
   }
 ];
 
