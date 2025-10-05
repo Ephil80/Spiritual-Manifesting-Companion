@@ -51,7 +51,7 @@ const Home = () => {
             <div className="max-w-4xl mx-auto text-gray-700 space-y-4">
               <p className="text-lg leading-relaxed">
                 Everything in the universe has a <span className="font-semibold text-indigo-700">Divine Design</span> - and we are no different. 
-                Each of us has a unique divine blueprint for our highest good and greatest joy.
+                Each of us has a unique divine blueprint guided by <span className="font-semibold text-indigo-700">infinite wisdom, unconditional love, and perfect goodness</span> for our highest evolution and deepest joy.
               </p>
               <p className="text-lg leading-relaxed">
                 The challenge arises when our <span className="font-semibold text-red-600">ego</span> (Edging God Out) decides it knows better than this divine wisdom. 
