@@ -59,7 +59,7 @@ Reflect on today:
 Remember: When you bless others, you dissolve your ego's illusions of separation and align with universal love."
 
 ### Consistency Builder  
-**Follow-up**: "Perfect! Your blessing for [person/situation]: 'I desire [specific blessing] for [person] in harmony with all under grace in a perfect way in accordance with the divine design. Thank you for hearing me.' This loving energy is now flowing! 💫"
+**Follow-up**: "Perfect! Your divine blessing: 'I bless [person/situation] with the Divine Design of [specific blessing - love, healing, abundance, peace]. May they receive their highest good.' This loving energy is now flowing! 💫"
 
 ---
 
