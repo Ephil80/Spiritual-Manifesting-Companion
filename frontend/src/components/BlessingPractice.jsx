@@ -56,6 +56,24 @@ export const BlessingPractice = () => {
         </Button>
       </div>
 
+      <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
+        <h3 className="text-lg font-medium text-blue-800 mb-2">Blessings & the Divine Design</h3>
+        <p className="text-blue-700 mb-4">
+          When our ego judges others as enemies or strangers, we create separation. Blessing everyone - family, friends, strangers, and even those who have hurt us - 
+          aligns us with the Divine Design of universal love. This practice dissolves the ego's illusions and opens our hearts to divine compassion.
+        </p>
+        <div className="bg-white/70 p-4 rounded-lg">
+          <h4 className="font-semibold text-blue-800 mb-2">Daily Benefits:</h4>
+          <ul className="text-blue-700 space-y-1 text-sm">
+            <li>• Transforms judgment into compassion, healing your heart</li>
+            <li>• Creates a flow of divine love that returns to you multiplied</li>
+            <li>• Dissolves ego barriers and connects you to universal oneness</li>
+            <li>• Attracts positive relationships and harmonious interactions</li>
+            <li>• Aligns you with your divine nature as a being of love</li>
+          </ul>
+        </div>
+      </div>
+
       {showForm && (
         <Card className="border-blue-200 shadow-lg">
           <CardHeader>
