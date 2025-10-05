@@ -70,7 +70,7 @@ const Home = () => {
               value="surrender" 
               className="flex items-center space-x-2 data-[state=active]:bg-teal-500 data-[state=active]:text-white transition-all duration-200"
             >
-              <Dove className="w-4 h-4" />
+              <Bird className="w-4 h-4" />
               <span className="hidden sm:inline">Surrender</span>
             </TabsTrigger>
             <TabsTrigger 
