@@ -12,7 +12,7 @@ export const mockEntries = {
       id: '2', 
       date: '2025-01-14',
       content: 'I am grateful for my health, the roof over my head, and the abundance that flows into my life.',
-      template: 'I desire to acknowledge all blessings in harmony with all under grace in a perfect way in accordance with the divine design. Thank you for hearing me.'
+      template: 'Thank you for my health, the roof over my head, and the abundance that flows into my life. I am so happy and grateful for this blessing.'
     }
   ],
   
