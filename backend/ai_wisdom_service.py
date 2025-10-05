@@ -107,14 +107,14 @@ Focus on creating a deeper lesson about:
 
 Include seed: {date_seed} for consistency.
 
-Return JSON with these fields:
-{
-  "title": "Teaching title",
-  "principle": "Core spiritual principle being taught",
-  "teaching": "Main explanation of the concept",
-  "application": "How to apply this in daily life",
-  "reflection": "A contemplative thought or question"
-}"""
+Return JSON with these exact fields:
+title: Teaching title
+principle: Core spiritual principle being taught
+teaching: Main explanation of the concept
+application: How to apply this in daily life
+reflection: A contemplative thought or question
+
+Format as valid JSON only."""
 
             user_message = UserMessage(text=prompt)
             response = await self.chat.send_message(user_message)
