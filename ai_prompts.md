@@ -105,6 +105,97 @@ Trust the process. Your desires are being orchestrated in divine timing, often b
 
 ---
 
+## 6. DAILY INSPIRATION & WISDOM PROMPTS
+
+### Morning Inspiration Delivery
+**Prompt**: "Good morning, divine soul! ✨ Your Daily Divine Design companion has fresh wisdom waiting for you.
+
+Today's spiritual nourishment:
+- **Quick inspiration**: Read today's divine quote and insight (1 minute)
+- **Deep wisdom dive**: Explore today's inspirational story + practice the wisdom (5-10 minutes)
+
+Your ego might want to skip this and jump into 'productivity,' but your soul knows that spiritual alignment IS the most productive thing you can do. What calls to you this morning?"
+
+### Evening Reflection Integration
+**Prompt**: "Divine being, ready for evening reflection! 🌙 Let's weave today's experiences with eternal wisdom.
+
+Tonight's soul nourishment:
+- **Quick wisdom**: Reflect on how today's divine quote played out in your life
+- **Deep integration**: Journal about how you lived (or could have lived) today's spiritual lesson
+
+Your ego reviews the day's 'failures,' but your soul celebrates the day's growth opportunities. Which perspective will you choose tonight?"
+
+### Story-Based Learning
+**Prompt**: "Ready for a soul-stirring story? 📖 These aren't just tales - they're mirrors showing you your own divine potential.
+
+Choose your journey:
+- **Quick inspiration**: Read the story excerpt and lesson (2 minutes)
+- **Deep transformation**: Read the full story + journal how it applies to your life (10-15 minutes)
+
+Every story reflects a truth about your own Divine Design journey. What is this story trying to teach your soul today?"
+
+---
+
+## 7. INTELLIGENT REMINDER SYSTEM PROMPTS
+
+### Smart Notification Triggers
+**Morning Nudge (8-10 AM)**: "Your ego is making today's plans. Have you aligned with Divine Design first? 5-minute soul check-in available now. ✨"
+
+**Midday Realignment (12-2 PM)**: "Ego stress rising? Divine peace is one breath away. Quick surrender practice: What are you trying to control that Divine Design can handle better? 🕊️"
+
+**Evening Reflection (7-9 PM)**: "Your ego wants to replay today's problems. Your soul wants to count today's blessings. Which voice will you listen to tonight? 🌙"
+
+**Crisis Mode (Triggered by user request)**: "Divine soul in storm! Your ego sees chaos, but Divine Design sees perfect orchestration. Emergency spiritual support: What needs immediate surrender to peace? ⚡"
+
+### Personalized Wisdom Delivery
+**For Consistent Users (Week 2+)**: "Spiritual warrior! 21 days of Divine Design alignment is creating real neural pathways. Your ego's old patterns are weakening. What transformation are you noticing?"
+
+**For Struggling Users**: "Beautiful soul, your ego is being extra loud today. That actually means you're growing! Resistance increases when breakthrough is near. What would love do in this situation?"
+
+**For Advanced Practitioners (Month 3+)**: "Divine teacher! Your transformation is now inspiring others. How is your aligned energy affecting the people around you? You're proof that this works! 🌟"
+
+---
+
+## 8. COMMUNITY & MOTIVATION PROMPTS
+
+### Global Connection
+**Daily Community Reminder**: "You're part of 2.1 million souls choosing Divine Design over ego chaos today! Your practice sends ripples of peace across the planet. Feel that connection. 🌍"
+
+### Streak Celebrations
+- **Day 7**: "One week of choosing soul over ego! Your spiritual muscles are getting stronger. 💪"
+- **Day 30**: "30 days! You're now officially rewiring your brain for divine thinking. Neuroscience + spirituality = transformation! 🧠✨"
+- **Day 100**: "100 days of Divine Design! You're living proof that daily spiritual practice transforms everything. You're inspiring millions! 🏆"
+
+### Missed Day Recovery
+**Gentle Return**: "Divine soul, your ego might be judging you for missing yesterday, but your soul just says 'Welcome back!' One day doesn't erase your growth. Divine Design includes perfect timing - even for returns. 💙"
+
+---
+
+## COMPLETE DAILY ROUTINE INTEGRATION
+
+### The Perfect Morning Sequence (10 minutes)
+1. **Inspiration** (2 min): Read daily wisdom quote
+2. **Gratitude** (2 min): Thank you for my ___. I am so happy and grateful for this blessing.
+3. **Blessing** (2 min): I bless ___ with the Divine Design of ___. May they receive their highest good.
+4. **Manifestation** (2 min): I desire ___, this or something better, in harmony with all under grace...
+5. **Surrender** (2 min): Brief letter about biggest concern + complete release
+
+### The Perfect Evening Sequence (10 minutes)
+1. **Reflection** (2 min): How did I choose soul over ego today?
+2. **Gratitude** (2 min): What divine synchronicities did I notice?
+3. **Blessing** (2 min): Who needs extra love tonight?
+4. **Banishing** (2 min): I release and banish ___, clearing space for divine peace
+5. **Surrender** (2 min): Final release of the day's worries to Divine Design
+
+### Emergency 2-Minute Reset (For Crisis Moments)
+**Quick Prompt**: "Divine soul in overwhelm! 2-minute emergency alignment:
+1. Three deep breaths: 'Divine Design is handling this'
+2. Quick surrender: What am I trying to control right now?
+3. Divine truth: 'My ego creates problems, my soul knows solutions'
+Ready? Your peace is waiting. 🕊️"
+
+---
+
 ## 4. SURRENDER PRACTICE PROMPTS
 
 ### Morning Surrender Release
