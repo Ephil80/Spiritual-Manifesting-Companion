@@ -6,8 +6,8 @@ import { dailyWisdom, spiritualTeachings } from '../inspirationData';
 
 export const DailyInspiration = () => {
   const [currentWisdom, setCurrentWisdom] = useState(null);
-  const [currentStory, setCurrentStory] = useState(null);
-  const [showStory, setShowStory] = useState(false);
+  const [currentTeaching, setCurrentTeaching] = useState(null);
+  const [showFullTeaching, setShowFullTeaching] = useState(false);
 
   useEffect(() => {
     // Get today's wisdom and story based on date
