@@ -75,9 +75,9 @@ export const GratitudeJournal = () => {
             </div>
             
             <div className="bg-rose-50 p-4 rounded-lg">
-              <p className="text-sm text-rose-700 font-medium mb-2">Divine Affirmation:</p>
+              <p className="text-sm text-rose-700 font-medium mb-2">Gratitude Blessing:</p>
               <p className="text-sm text-rose-600 italic">
-                "I desire to express deep gratitude in harmony with all under grace in a perfect way in accordance with the divine design. Thank you for hearing me."
+                "Thank you for my [your gratitude]. I am so happy and grateful for this blessing."
               </p>
             </div>
             
