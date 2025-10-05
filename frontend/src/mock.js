@@ -87,7 +87,7 @@ export const mockEntries = {
       id: '1',
       negative: 'Self-doubt and limiting beliefs',
       date: '2025-01-15',
-      template: 'I release and banish self-doubt and limiting beliefs in harmony with all under grace in a perfect way in accordance with the divine design. Thank you for hearing me.'
+      template: 'I release and banish self-doubt and limiting beliefs, this or something better, in harmony with all under grace in a perfect way in accordance with the divine design. Thank you for hearing me.'
     },
     {
       id: '2',
