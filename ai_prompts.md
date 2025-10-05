@@ -109,7 +109,7 @@ Before sleep, pour out your heart:
 Write as if to the most understanding parent who has unlimited wisdom and power. What happened today? What are you worried about? How does it feel? Then let Divine Design take over while you sleep peacefully."
 
 ### Consistency Builder
-**Follow-up**: "Such beautiful surrender! Your release prayer: 'I surrender [their situation] in harmony with all under grace in a perfect way in accordance with the divine design. Thank you for hearing me.' You're now in the flow of divine solutions! 🌊"
+**Follow-up**: "Such beautiful surrender! Your letter to Divine Design has been received with infinite love. The situation is now in divine hands - solutions are flowing that your ego never imagined. Rest in this peace. 🌊"
 
 ---
 
