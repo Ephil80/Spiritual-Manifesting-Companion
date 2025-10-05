@@ -5,7 +5,7 @@ export const mockEntries = {
     {
       id: '1',
       date: '2025-01-15',
-      content: 'I am grateful for the loving support of my family and the opportunity to grow spiritually each day.',
+      content: 'I am grateful for the divine love flowing through my family and the wisdom to recognize when my ego tries to create problems where none exist.',
       template: 'I desire to express deep gratitude in harmony with all under grace in a perfect way in accordance with the divine design. Thank you for hearing me.'
     },
     {
