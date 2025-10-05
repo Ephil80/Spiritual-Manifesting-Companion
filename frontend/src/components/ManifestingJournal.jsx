@@ -55,6 +55,24 @@ export const ManifestingJournal = () => {
         </Button>
       </div>
 
+      <div className="bg-violet-50 p-6 rounded-lg border border-violet-200">
+        <h3 className="text-lg font-medium text-violet-800 mb-2">Manifesting & the Divine Design</h3>
+        <p className="text-violet-700 mb-4">
+          True manifestation isn't about forcing outcomes through ego-driven desires, but aligning with the Divine Design to receive what serves our highest good. 
+          We were created in the image of the divine - the only thing stopping our blessings is our ego's tainted perception of what we need.
+        </p>
+        <div className="bg-white/70 p-4 rounded-lg">
+          <h4 className="font-semibold text-violet-800 mb-2">Daily Benefits:</h4>
+          <ul className="text-violet-700 space-y-1 text-sm">
+            <li>• Aligns your desires with divine will for perfect outcomes</li>
+            <li>• Releases ego attachment and opens to "this or something better"</li>
+            <li>• Activates your divine creative power as a co-creator with God</li>
+            <li>• Attracts opportunities that serve your soul's highest purpose</li>
+            <li>• Transforms scarcity mindset into abundant divine trust</li>
+          </ul>
+        </div>
+      </div>
+
       {showForm && (
         <Card className="border-violet-200 shadow-lg">
           <CardHeader>
