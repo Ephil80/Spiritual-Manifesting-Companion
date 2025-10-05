@@ -104,6 +104,13 @@ const Home = () => {
               <span className="hidden sm:inline">Bless</span>
             </TabsTrigger>
             <TabsTrigger 
+              value="forgiveness" 
+              className="flex items-center space-x-2 data-[state=active]:bg-green-500 data-[state=active]:text-white transition-all duration-200"
+            >
+              <Wrench className="w-4 h-4" />
+              <span className="hidden sm:inline">Forgive</span>
+            </TabsTrigger>
+            <TabsTrigger 
               value="gratitude" 
               className="flex items-center space-x-2 data-[state=active]:bg-rose-500 data-[state=active]:text-white transition-all duration-200"
             >
