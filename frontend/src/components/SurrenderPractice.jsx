@@ -41,11 +41,21 @@ export const SurrenderPractice = () => {
       </div>
 
       <div className="bg-teal-50 p-6 rounded-lg border border-teal-200">
-        <h3 className="text-lg font-medium text-teal-800 mb-2">About Surrender</h3>
-        <p className="text-teal-700">
-          Surrendering to the divine design means releasing our need to control outcomes and trusting in the greater wisdom of the universe. 
-          When we surrender our worries, fears, and challenges, we open ourselves to divine guidance and solutions beyond our limited perspective.
+        <h3 className="text-lg font-medium text-teal-800 mb-2">Surrender & the Divine Design</h3>
+        <p className="text-teal-700 mb-4">
+          Surrender is the ego's greatest teacher. When we release our need to control outcomes and trust the Divine Design, 
+          we step out of our own way and allow infinite wisdom to guide us to solutions beyond our limited perspective.
         </p>
+        <div className="bg-white/70 p-4 rounded-lg">
+          <h4 className="font-semibold text-teal-800 mb-2">Daily Benefits:</h4>
+          <ul className="text-teal-700 space-y-1 text-sm">
+            <li>• Releases ego's need to control and opens to divine flow</li>
+            <li>• Transforms anxiety into peaceful trust in divine timing</li>
+            <li>• Allows divine solutions beyond your current understanding</li>
+            <li>• Frees mental energy for creative and joyful pursuits</li>
+            <li>• Deepens your connection to divine guidance and intuition</li>
+          </ul>
+        </div>
       </div>
 
       {showForm && (
