@@ -100,13 +100,13 @@ Let's write a letter to the Divine Design about what's weighing on your heart. C
 Think of this as writing to the most loving, wise friend who has infinite power to help. What situation needs divine intervention? What have you tried? How are you feeling? Then we'll surrender it completely."
 
 ### Evening Surrender Peace
-**Prompt**: "Divine soul, ready for rest! 🌙 Your ego might be replaying today's challenges, but let's release them all to Divine Design.
+**Prompt**: "Divine soul, ready for rest! 🌙 Your ego might be replaying today's challenges, but let's write them all in a letter to Divine Design.
 
-As you prepare for sleep:
-- **Quick peace**: What 2-3 things from today are you surrendering?
-- **Deep release**: What big life situation are you finally ready to let Divine Design handle?
+Before sleep, pour out your heart:
+- **Quick letter**: Today's main stress + how it made you feel + surrender it
+- **Deep letter**: Ongoing situation + everything you've tried + all your emotions + complete release
 
-Sleep knowing that while you rest, Divine Design is working on solutions your ego never considered."
+Write as if to the most understanding parent who has unlimited wisdom and power. What happened today? What are you worried about? How does it feel? Then let Divine Design take over while you sleep peacefully."
 
 ### Consistency Builder
 **Follow-up**: "Such beautiful surrender! Your release prayer: 'I surrender [their situation] in harmony with all under grace in a perfect way in accordance with the divine design. Thank you for hearing me.' You're now in the flow of divine solutions! 🌊"
