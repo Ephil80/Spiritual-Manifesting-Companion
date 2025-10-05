@@ -58,6 +58,11 @@ const Home = () => {
                 The Divine Design honors our free will and cannot override our choices, even when they lead us away from our highest path.
               </p>
               <p className="text-lg leading-relaxed">
+                Here's the beautiful truth: <span className="font-semibold text-green-600">Divine Design can create beauty from any chaos</span> - even the problems your ego creates. 
+                A relationship crisis can lead to deeper love. A career setback can redirect you to your true purpose. 
+                Conversely, <span className="font-semibold text-red-600">ego can create chaos from beauty</span> - turning blessings into problems through fear and control.
+              </p>
+              <p className="text-lg leading-relaxed">
                 When we align with the Divine Design through <span className="font-semibold text-purple-600">gratitude, blessings, surrender, and conscious manifestation</span>, 
                 we open ourselves to divine guidance and allow our highest good to unfold naturally.
               </p>
