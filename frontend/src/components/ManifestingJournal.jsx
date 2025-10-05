@@ -109,7 +109,7 @@ export const ManifestingJournal = () => {
               <div className="bg-violet-50 p-4 rounded-lg">
                 <p className="text-sm text-violet-700 font-medium mb-2">Divine Manifestation:</p>
                 <p className="text-sm text-violet-600 italic">
-                  "I desire {formData.desire} in harmony with all under grace in a perfect way in accordance with the divine design. Thank you for hearing me."
+                  "I desire {formData.desire}, this or something better, in harmony with all under grace in a perfect way in accordance with the divine design. Thank you for hearing me."
                 </p>
               </div>
             )}
