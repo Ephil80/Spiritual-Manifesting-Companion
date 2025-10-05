@@ -54,8 +54,8 @@ const Home = () => {
                 Each of us has a unique divine blueprint guided by <span className="font-semibold text-indigo-700">infinite wisdom, unconditional love, and perfect goodness</span> for our highest evolution and deepest joy.
               </p>
               <p className="text-lg leading-relaxed">
-                The challenge arises when our <span className="font-semibold text-red-600">ego</span> (Edging God Out) decides it knows better than this divine wisdom. 
-                The Divine Design honors our free will and cannot override our choices, even when they lead us away from our highest path.
+                The challenge arises when our <span className="font-semibold text-red-600">ego</span> decides it knows better than infinite wisdom and unconditional love. 
+                The Divine Design, flowing from perfect goodness, honors our free will and cannot override our choices, even when they lead us away from our highest path.
               </p>
               <p className="text-lg leading-relaxed">
                 Here's the beautiful truth: <span className="font-semibold text-green-600">Divine Design can create beauty from any chaos</span> - even the problems your ego creates. 
