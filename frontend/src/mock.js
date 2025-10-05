@@ -63,7 +63,7 @@ export const mockEntries = {
       category: 'goals',
       desire: 'Success in my creative writing career',
       date: '2025-01-14',
-      template: 'I desire success in my creative writing career in harmony with all under grace in a perfect way in accordance with the divine design. Thank you for hearing me.'
+      template: 'I desire success in my creative writing career, this or something better, in harmony with all under grace in a perfect way in accordance with the divine design. Thank you for hearing me.'
     }
   ],
   
