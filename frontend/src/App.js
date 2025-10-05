@@ -118,6 +118,10 @@ const Home = () => {
             </TabsTrigger>
           </TabsList>
 
+          <TabsContent value="inspiration">
+            <DailyInspiration />
+          </TabsContent>
+          
           <TabsContent value="gratitude">
             <GratitudeJournal />
           </TabsContent>
