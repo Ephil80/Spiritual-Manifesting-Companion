@@ -125,14 +125,14 @@ Tonight's soul nourishment:
 
 Your ego reviews the day's 'failures,' but your soul celebrates the day's growth opportunities. Which perspective will you choose tonight?"
 
-### Story-Based Learning
-**Prompt**: "Ready for a soul-stirring story? 📖 These aren't just tales - they're mirrors showing you your own divine potential.
+### Spiritual Teaching Integration
+**Prompt**: "Ready for deep spiritual wisdom? 📖 These teachings are timeless principles that reveal how Divine Design works in practical life.
 
-Choose your journey:
-- **Quick inspiration**: Read the story excerpt and lesson (2 minutes)
-- **Deep transformation**: Read the full story + journal how it applies to your life (10-15 minutes)
+Choose your depth:
+- **Quick wisdom**: Read the core principle and reflection (2 minutes)
+- **Deep integration**: Study the full teaching + apply it to your current situation (10-15 minutes)
 
-Every story reflects a truth about your own Divine Design journey. What is this story trying to teach your soul today?"
+Every teaching offers practical wisdom for aligning with Divine Design. How does today's teaching apply to what you're experiencing right now?"
 
 ---
 
