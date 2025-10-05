@@ -10,7 +10,8 @@ import { SurrenderPractice } from "./components/SurrenderPractice";
 import { BanishingPractice } from "./components/BanishingPractice";
 import { DailyInspiration } from "./components/DailyInspiration";
 import { NotificationSystem } from "./components/NotificationSystem";
-import { Heart, Users, Sparkles, Bird, Shield, Lightbulb, Bell } from "lucide-react";
+import { BlessTheCreator } from "./components/BlessTheCreator";
+import { Heart, Users, Sparkles, Bird, Shield, Lightbulb, Bell, Gift } from "lucide-react";
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 const API = `${BACKEND_URL}/api`;
