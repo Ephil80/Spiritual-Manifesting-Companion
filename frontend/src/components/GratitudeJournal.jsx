@@ -42,10 +42,20 @@ export const GratitudeJournal = () => {
 
       <div className="bg-rose-50 p-6 rounded-lg border border-rose-200">
         <h3 className="text-lg font-medium text-rose-800 mb-2">Gratitude & the Divine Design</h3>
-        <p className="text-rose-700">
-          Gratitude aligns us with the Divine Design by shifting our focus from what our ego thinks we lack to recognizing the abundant blessings already present. 
-          When we practice gratitude, we surrender our ego's complaints and open our hearts to receive divine guidance and abundance.
+        <p className="text-rose-700 mb-4">
+          Gratitude is the fastest way to align with the Divine Design. When we focus on blessings instead of lack, 
+          we shift from ego's complaints to divine appreciation, opening our hearts to receive even greater abundance.
         </p>
+        <div className="bg-white/70 p-4 rounded-lg">
+          <h4 className="font-semibold text-rose-800 mb-2">Daily Benefits:</h4>
+          <ul className="text-rose-700 space-y-1 text-sm">
+            <li>• Shifts focus from ego's lack to divine abundance</li>
+            <li>• Raises your vibration to attract more blessings</li>
+            <li>• Transforms complaints into appreciation and joy</li>
+            <li>• Opens your heart to receive divine guidance</li>
+            <li>• Activates the law of attraction for positive experiences</li>
+          </ul>
+        </div>
       </div>
 
       {showForm && (
