@@ -80,7 +80,7 @@ const Home = () => {
       {/* Main Content */}
       <main className="max-w-6xl mx-auto px-4 py-8">
         <Tabs defaultValue="inspiration" className="w-full">
-          <TabsList className="grid grid-cols-7 mb-8 bg-white/70 backdrop-blur-sm p-1 rounded-xl border border-indigo-100">
+          <TabsList className="grid grid-cols-8 mb-8 bg-white/70 backdrop-blur-sm p-1 rounded-xl border border-indigo-100">
             <TabsTrigger 
               value="inspiration" 
               className="flex items-center space-x-2 data-[state=active]:bg-amber-500 data-[state=active]:text-white transition-all duration-200"
@@ -94,6 +94,13 @@ const Home = () => {
             >
               <Bell className="w-4 h-4" />
               <span className="hidden sm:inline">Reminders</span>
+            </TabsTrigger>
+            <TabsTrigger 
+              value="bless" 
+              className="flex items-center space-x-2 data-[state=active]:bg-rose-500 data-[state=active]:text-white transition-all duration-200"
+            >
+              <Gift className="w-4 h-4" />
+              <span className="hidden sm:inline">Bless</span>
             </TabsTrigger>
             <TabsTrigger 
               value="gratitude" 
