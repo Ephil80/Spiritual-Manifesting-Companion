@@ -22,7 +22,7 @@ export const BlessingPractice = () => {
         id: Date.now().toString(),
         date: new Date().toISOString().split('T')[0],
         ...formData,
-        template: `I desire ${formData.blessing} for ${formData.person} in harmony with all under grace in a perfect way in accordance with the divine design. Thank you for hearing me.`
+        template: `I bless ${formData.person} with the Divine Design of ${formData.blessing}. May they receive their highest good.`
       };
       setEntries([entry, ...entries]);
       setFormData({ category: '', person: '', blessing: '' });
