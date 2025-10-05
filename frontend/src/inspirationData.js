@@ -17,6 +17,11 @@ export const dailyWisdom = [
     practice: "When facing any challenge today, ask: 'How can Divine Design create beauty from this situation?' Trust that even ego-created problems can become divine opportunities."
   },
   {
+    quote: "Grace is the ultimate cheat code - you receive blessings not because you've earned them, but because infinite love gives them freely.",
+    insight: "Your ego constantly judges whether you 'deserve' good things, creating barriers to receiving blessings. But grace operates beyond merit - it flows from infinite wisdom and unconditional love, giving you exactly what you need for your highest good, regardless of your ego's scorekeeping.",
+    practice: "When something beautiful comes into your life today, resist the ego's voice saying 'I don't deserve this.' Instead, receive it with gratitude as a gift of grace from infinite love."
+  },
+  {
     quote: "Gratitude is the key that unlocks the door to divine abundance.",
     insight: "When you focus on what you lack, you align with scarcity. When you focus on your blessings, you align with the infinite abundance of the Divine Design.",
     practice: "Start your morning by naming three things you're grateful for before your ego can list what's wrong."
