@@ -120,7 +120,7 @@ export const BlessingPractice = () => {
               <div className="bg-blue-50 p-4 rounded-lg">
                 <p className="text-sm text-blue-700 font-medium mb-2">Divine Blessing:</p>
                 <p className="text-sm text-blue-600 italic">
-                  "I desire {formData.blessing} for {formData.person} in harmony with all under grace in a perfect way in accordance with the divine design. Thank you for hearing me."
+                  "I bless {formData.person} with the Divine Design of {formData.blessing}. May they receive their highest good."
                 </p>
               </div>
             )}
