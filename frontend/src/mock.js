@@ -49,7 +49,7 @@ export const mockEntries = {
       category: 'health',
       desire: 'Complete healing of my back pain',
       date: '2025-01-15',
-      template: 'I desire complete healing of my back pain in harmony with all under grace in a perfect way in accordance with the divine design. Thank you for hearing me.'
+      template: 'I desire complete healing of my back pain, this or something better, in harmony with all under grace in a perfect way in accordance with the divine design. Thank you for hearing me.'
     },
     {
       id: '2',
