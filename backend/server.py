@@ -67,6 +67,56 @@ async def get_status_checks():
     status_checks = await db.status_checks.find().to_list(1000)
     return [StatusCheck(**status_check) for status_check in status_checks]
 
+@api_router.get("/daily-wisdom", response_model=DailyWisdomResponse)
+async def get_daily_wisdom(target_date: Optional[str] = None):
+    """Get AI-generated daily wisdom. If no date provided, uses today."""
+    try:
+        parsed_date = None
+        if target_date:
+            try:
+                parsed_date = datetime.strptime(target_date, "%Y-%m-%d").date()
+            except ValueError:
+                parsed_date = None
+        
+        wisdom = await ai_wisdom_service.generate_daily_wisdom(parsed_date)
+        wisdom["date"] = (parsed_date or date.today()).strftime("%Y-%m-%d")
+        return DailyWisdomResponse(**wisdom)
+    except Exception as e:
+        logger.error(f"Error getting daily wisdom: {e}")
+        # Return fallback wisdom
+        return DailyWisdomResponse(
+            quote="Divine Design creates beauty from any situation, even the challenges your ego creates.",
+            insight="Your ego might create problems, but infinite wisdom has the power to transform any chaos into something beautiful for your growth.",
+            practice="When facing any difficulty today, ask: 'How can Divine Design create beauty from this situation?'",
+            date=(parsed_date or date.today()).strftime("%Y-%m-%d")
+        )
+
+@api_router.get("/spiritual-teaching", response_model=SpiritualTeachingResponse)
+async def get_spiritual_teaching(target_date: Optional[str] = None):
+    """Get AI-generated spiritual teaching. If no date provided, uses today."""
+    try:
+        parsed_date = None
+        if target_date:
+            try:
+                parsed_date = datetime.strptime(target_date, "%Y-%m-%d").date()
+            except ValueError:
+                parsed_date = None
+                
+        teaching = await ai_wisdom_service.generate_spiritual_teaching(parsed_date)
+        teaching["date"] = (parsed_date or date.today()).strftime("%Y-%m-%d")
+        return SpiritualTeachingResponse(**teaching)
+    except Exception as e:
+        logger.error(f"Error getting spiritual teaching: {e}")
+        # Return fallback teaching
+        return SpiritualTeachingResponse(
+            title="The Power of Divine Grace",
+            principle="Grace flows from infinite love beyond human concepts of deserving",
+            teaching="Grace is the ultimate expression of infinite goodness that transcends your ego's earning system. While your ego creates elaborate rules about worthiness, the source of all blessings operates beyond such limitations.",
+            application="When you catch yourself saying 'I don't deserve this blessing,' consciously choose to receive with gratitude, recognizing grace as a gift from infinite love.",
+            reflection="Grace doesn't require your perfection - it flows from infinite perfection.",
+            date=(parsed_date or date.today()).strftime("%Y-%m-%d")
+        )
+
 # Include the router in the main app
 app.include_router(api_router)
 
