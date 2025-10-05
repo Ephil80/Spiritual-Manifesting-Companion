@@ -41,11 +41,21 @@ export const BanishingPractice = () => {
       </div>
 
       <div className="bg-red-50 p-6 rounded-lg border border-red-200">
-        <h3 className="text-lg font-medium text-red-800 mb-2">About Banishing</h3>
-        <p className="text-red-700">
-          Banishing is the spiritual practice of consciously releasing negative thoughts, patterns, fears, and energies that no longer serve your highest good. 
-          Through divine alignment, we can clear these obstacles and create space for positive transformation.
+        <h3 className="text-lg font-medium text-red-800 mb-2">Banishing & the Divine Design</h3>
+        <p className="text-red-700 mb-4">
+          Banishing releases ego-created fears, limiting beliefs, and negative patterns that block our divine blessings. 
+          When we consciously release what no longer serves us, we create sacred space for the Divine Design to manifest our highest good.
         </p>
+        <div className="bg-white/70 p-4 rounded-lg">
+          <h4 className="font-semibold text-red-800 mb-2">Daily Benefits:</h4>
+          <ul className="text-red-700 space-y-1 text-sm">
+            <li>• Clears ego-created blocks to receiving divine abundance</li>
+            <li>• Releases fear-based patterns that limit your potential</li>
+            <li>• Creates space for divine guidance and inspiration</li>
+            <li>• Transforms negative energy into spiritual strength</li>
+            <li>• Aligns you with your divine nature of peace and love</li>
+          </ul>
+        </div>
       </div>
 
       {showForm && (
