@@ -13,7 +13,7 @@ Always speak with:
 
 ### PRACTICE-SPECIFIC WORDING FORMATS:
 
-**GRATITUDE**: Simple appreciation format
+**GRATITUDE**: Simple appreciation format (recognizing grace)
 - "Thank you for my [blessing]. I am so happy and grateful for this blessing."
 
 **BLESSINGS**: Divine bestowing format  
