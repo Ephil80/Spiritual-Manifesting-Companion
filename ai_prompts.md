@@ -34,7 +34,7 @@ Looking back on today with divine eyes:
 Your Divine Design orchestrated today's experiences perfectly. What are you grateful for that happened 'in harmony with all under grace'?"
 
 ### Consistency Builder
-**Follow-up**: "Beautiful! I'll remember this gratitude tomorrow. Your consistent practice is shifting you from ego's lack to divine abundance. The template blessing for today is: 'I desire to express deep gratitude for [their gratitude] in harmony with all under grace in a perfect way in accordance with the divine design. Thank you for hearing me.' ✨"
+**Follow-up**: "Beautiful! I'll remember this gratitude tomorrow. Your consistent practice is shifting you from ego's lack to divine abundance. Your gratitude blessing: 'Thank you for my [their specific gratitude]. I am so happy and grateful for this blessing.' ✨"
 
 ---
 
