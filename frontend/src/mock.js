@@ -31,7 +31,7 @@ export const mockEntries = {
       person: 'All those struggling with loneliness',
       blessing: 'connection and community',
       date: '2025-01-15',
-      template: 'I desire connection and community for all those struggling with loneliness in harmony with all under grace in a perfect way in accordance with the divine design. Thank you for hearing me.'
+      template: 'I bless all those struggling with loneliness with the Divine Design of connection and community. May they receive their highest good.'
     },
     {
       id: '3',
