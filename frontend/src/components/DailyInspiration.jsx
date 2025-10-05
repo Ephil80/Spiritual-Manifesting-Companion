@@ -138,8 +138,8 @@ export const DailyInspiration = () => {
         <CardContent className="pt-6">
           <div className="text-center">
             <p className="text-emerald-700 text-lg mb-4 leading-relaxed">
-              Remember: Your ego creates problems, but the Divine Design creates solutions. 
-              Every challenge is an invitation to surrender deeper into divine trust.
+              Remember: Your ego can create chaos from beauty, but Divine Design creates beauty from chaos. 
+              Even the messes your ego makes can be transformed into divine opportunities.
             </p>
             <div className="bg-white/70 p-4 rounded-lg">
               <p className="text-emerald-800 font-semibold mb-2">Today's Affirmation:</p>
