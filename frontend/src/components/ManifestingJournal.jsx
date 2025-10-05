@@ -20,7 +20,7 @@ export const ManifestingJournal = () => {
         id: Date.now().toString(),
         date: new Date().toISOString().split('T')[0],
         ...formData,
-        template: `I desire ${formData.desire} in harmony with all under grace in a perfect way in accordance with the divine design. Thank you for hearing me.`
+        template: `I desire ${formData.desire}, this or something better, in harmony with all under grace in a perfect way in accordance with the divine design. Thank you for hearing me.`
       };
       setEntries([entry, ...entries]);
       setFormData({ category: '', desire: '' });
