@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Card, CardHeader, CardTitle, CardContent } from './ui/card';
 import { Button } from './ui/button';
 import { Textarea } from './ui/textarea';
-import { Plus, Dove, Calendar } from 'lucide-react';
+import { Plus, Bird, Calendar } from 'lucide-react';
 import { mockEntries } from '../mock';
 
 export const SurrenderPractice = () => {
