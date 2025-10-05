@@ -36,6 +36,20 @@ class StatusCheck(BaseModel):
 class StatusCheckCreate(BaseModel):
     client_name: str
 
+class DailyWisdomResponse(BaseModel):
+    quote: str
+    insight: str
+    practice: str
+    date: str
+
+class SpiritualTeachingResponse(BaseModel):
+    title: str
+    principle: str
+    teaching: str
+    application: str
+    reflection: str
+    date: str
+
 # Add your routes to the router instead of directly to app
 @api_router.get("/")
 async def root():
