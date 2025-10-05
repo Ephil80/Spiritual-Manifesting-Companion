@@ -16,7 +16,7 @@ export const GratitudeJournal = () => {
         id: Date.now().toString(),
         date: new Date().toISOString().split('T')[0],
         content: newEntry,
-        template: `I desire to express deep gratitude in harmony with all under grace in a perfect way in accordance with the divine design. Thank you for hearing me.`
+        template: `Thank you for my ${newEntry}. I am so happy and grateful for this blessing.`
       };
       setEntries([entry, ...entries]);
       setNewEntry('');
