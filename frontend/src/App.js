@@ -147,6 +147,10 @@ const Home = () => {
             <NotificationSystem />
           </TabsContent>
           
+          <TabsContent value="bless">
+            <BlessTheCreator />
+          </TabsContent>
+          
           <TabsContent value="gratitude">
             <GratitudeJournal />
           </TabsContent>
