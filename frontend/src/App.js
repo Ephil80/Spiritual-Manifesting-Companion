@@ -12,7 +12,9 @@ import { DailyInspiration } from "./components/DailyInspiration";
 import { NotificationSystem } from "./components/NotificationSystem";
 import { BlessTheCreator } from "./components/BlessTheCreator";
 import { ForgivenessPractice } from "./components/ForgivenessPractice";
-import { Heart, Users, Sparkles, Bird, Shield, Lightbulb, Bell, Gift, Wrench } from "lucide-react";
+import { SpiritualSettings } from "./components/SpiritualSettings";
+import { SpiritualProvider } from "./contexts/SpiritualContext";
+import { Heart, Users, Sparkles, Bird, Shield, Lightbulb, Bell, Gift, Wrench, Settings } from "lucide-react";
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 const API = `${BACKEND_URL}/api`;
