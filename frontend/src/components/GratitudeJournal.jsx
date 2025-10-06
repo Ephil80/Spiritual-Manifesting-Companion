@@ -79,7 +79,7 @@ export const GratitudeJournal = () => {
             <div className="bg-rose-50 p-4 rounded-lg">
               <p className="text-sm text-rose-700 font-medium mb-2">Gratitude Blessing:</p>
               <p className="text-sm text-rose-600 italic">
-                "Thank you for my [your gratitude]. I am so happy and grateful for this blessing."
+                "{getSpiritualText.gratitudeTemplate('[your gratitude]')}"
               </p>
             </div>
             
