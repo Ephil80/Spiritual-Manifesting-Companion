@@ -4,6 +4,7 @@ import { Button } from './ui/button';
 import { Textarea } from './ui/textarea';
 import { Plus, Heart, Calendar } from 'lucide-react';
 import { mockEntries } from '../mock';
+import { useSpiritualSettings } from '../contexts/SpiritualContext';
 
 export const GratitudeJournal = () => {
   const [entries, setEntries] = useState(mockEntries.gratitude);
