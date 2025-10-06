@@ -168,22 +168,8 @@ export const BlessTheCreator = () => {
         </CardContent>
       </Card>
 
-      {/* Payment Status Messages */}
-      {paymentStatus === 'checking' && (
-        <Card className="bg-gradient-to-r from-blue-50 to-indigo-50 border-blue-200">
-          <CardContent className="pt-6">
-            <div className="text-center">
-              <Loader2 className="w-8 h-8 text-blue-500 animate-spin mx-auto mb-4" />
-              <h3 className="text-xl font-semibold text-blue-800 mb-2">
-                Verifying Your Blessing... 💫
-              </h3>
-              <p className="text-blue-700">Please wait while we confirm your divine gift.</p>
-            </div>
-          </CardContent>
-        </Card>
-      )}
-
-      {paymentStatus === 'success' && showBlessingMessage && (
+      {/* Blessing Confirmation */}
+      {showBlessingMessage && (
         <Card className="bg-gradient-to-r from-emerald-50 to-teal-50 border-emerald-200">
           <CardContent className="pt-6">
             <div className="text-center">
@@ -191,62 +177,25 @@ export const BlessTheCreator = () => {
                 <Star className="w-8 h-8 text-emerald-500" />
               </div>
               <h3 className="text-xl font-semibold text-emerald-800 mb-2">
-                Your Blessing Has Been Received! ✨
+                PayPal Opened - Thank You! ✨
               </h3>
               <p className="text-emerald-700 leading-relaxed">
-                Thank you for participating in the divine flow of giving and receiving. 
-                Your blessing helps keep this spiritual support flowing freely to millions of souls worldwide.
+                Thank you for choosing to bless the creator! PayPal has opened in a new tab where you can complete your divine gift. 
+                Your generosity helps keep this spiritual support flowing freely to millions of souls worldwide.
               </p>
               <div className="bg-white/70 p-3 rounded-lg mt-4">
                 <p className="text-emerald-800 font-medium text-sm">
                   "I bless the creator with the Divine Design of abundance and joy. May this gift multiply blessings for all."
                 </p>
               </div>
-            </div>
-          </CardContent>
-        </Card>
-      )}
-
-      {paymentStatus === 'cancelled' && (
-        <Card className="bg-gradient-to-r from-amber-50 to-yellow-50 border-amber-200">
-          <CardContent className="pt-6">
-            <div className="text-center">
-              <h3 className="text-xl font-semibold text-amber-800 mb-2">
-                Blessing Paused 🙏
-              </h3>
-              <p className="text-amber-700">
-                No worries! Your worth isn't determined by giving. The blessing is always available when your heart feels called.
-              </p>
-            </div>
-          </CardContent>
-        </Card>
-      )}
-
-      {paymentStatus === 'expired' && (
-        <Card className="bg-gradient-to-r from-gray-50 to-slate-50 border-gray-200">
-          <CardContent className="pt-6">
-            <div className="text-center">
-              <h3 className="text-xl font-semibold text-gray-800 mb-2">
-                Session Expired ⏰
-              </h3>
-              <p className="text-gray-700">
-                The payment window has closed. Feel free to try again whenever your heart desires to give.
-              </p>
-            </div>
-          </CardContent>
-        </Card>
-      )}
-
-      {paymentStatus === 'error' && (
-        <Card className="bg-gradient-to-r from-red-50 to-pink-50 border-red-200">
-          <CardContent className="pt-6">
-            <div className="text-center">
-              <h3 className="text-xl font-semibold text-red-800 mb-2">
-                Technical Issue 🔧
-              </h3>
-              <p className="text-red-700">
-                There was an issue processing your blessing. Your intention matters most. Please try again or contact support.
-              </p>
+              <div className="mt-4">
+                <Button
+                  onClick={() => window.open('https://paypal.me/PhilipTownley', '_blank')}
+                  className="bg-blue-600 hover:bg-blue-700 text-white"
+                >
+                  Open PayPal Again
+                </Button>
+              </div>
             </div>
           </CardContent>
         </Card>
