@@ -23,6 +23,17 @@ mongo_url = os.environ['MONGO_URL']
 client = AsyncIOMotorClient(mongo_url)
 db = client[os.environ['DB_NAME']]
 
+# Stripe setup
+stripe_api_key = os.environ.get('STRIPE_API_KEY')
+
+# Donation packages (fixed amounts for security)
+DONATION_PACKAGES = {
+    "coffee": {"amount": 5.00, "name": "Coffee Blessing"},
+    "lunch": {"amount": 15.00, "name": "Lunch Blessing"}, 
+    "sacred": {"amount": 33.00, "name": "Sacred Number"},
+    "abundance": {"amount": 108.00, "name": "Divine Abundance"}
+}
+
 # Create the main app without a prefix
 app = FastAPI()
 
