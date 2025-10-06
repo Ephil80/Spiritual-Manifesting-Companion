@@ -10,6 +10,7 @@ export const GratitudeJournal = () => {
   const [entries, setEntries] = useState(mockEntries.gratitude);
   const [newEntry, setNewEntry] = useState('');
   const [showForm, setShowForm] = useState(false);
+  const { getSpiritualText } = useSpiritualSettings();
 
   const handleAddEntry = () => {
     if (newEntry.trim()) {
