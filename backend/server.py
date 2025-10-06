@@ -121,6 +121,153 @@ async def get_daily_wisdom(target_date: Optional[str] = None):
             date=(parsed_date or date.today()).strftime("%Y-%m-%d")
         )
 
+@api_router.post("/donations/checkout")
+async def create_donation_checkout(donation_request: DonationRequest, request: Request):
+    """Create Stripe checkout session for donations"""
+    try:
+        # Validate package
+        if donation_request.package_id not in DONATION_PACKAGES:
+            raise HTTPException(status_code=400, detail="Invalid donation package")
+        
+        # Get package details
+        package = DONATION_PACKAGES[donation_request.package_id]
+        amount = package["amount"]
+        
+        # Initialize Stripe checkout
+        host_url = donation_request.origin_url
+        webhook_url = f"{host_url}/api/webhook/stripe"
+        stripe_checkout = StripeCheckout(api_key=stripe_api_key, webhook_url=webhook_url)
+        
+        # Create success and cancel URLs
+        success_url = f"{host_url}?donation_success=true&session_id={{CHECKOUT_SESSION_ID}}"
+        cancel_url = f"{host_url}?donation_cancelled=true"
+        
+        # Create checkout session request
+        checkout_request = CheckoutSessionRequest(
+            amount=amount,
+            currency="usd",
+            success_url=success_url,
+            cancel_url=cancel_url,
+            metadata={
+                "type": "donation",
+                "package_id": donation_request.package_id,
+                "package_name": package["name"]
+            }
+        )
+        
+        # Create checkout session
+        session: CheckoutSessionResponse = await stripe_checkout.create_checkout_session(checkout_request)
+        
+        # Create payment transaction record
+        transaction = PaymentTransaction(
+            session_id=session.session_id,
+            package_id=donation_request.package_id,
+            amount=amount,
+            currency="usd",
+            payment_status="pending",
+            status="initiated",
+            metadata={
+                "package_name": package["name"],
+                "stripe_session_id": session.session_id
+            }
+        )
+        
+        # Save to database
+        await db.payment_transactions.insert_one(transaction.dict())
+        
+        return {"checkout_url": session.url, "session_id": session.session_id}
+        
+    except Exception as e:
+        logger.error(f"Error creating donation checkout: {e}")
+        raise HTTPException(status_code=500, detail="Failed to create checkout session")
+
+@api_router.get("/donations/status/{session_id}")
+async def get_donation_status(session_id: str):
+    """Check donation payment status"""
+    try:
+        # Initialize Stripe checkout (webhook_url not needed for status check)
+        stripe_checkout = StripeCheckout(api_key=stripe_api_key, webhook_url="")
+        
+        # Get checkout status from Stripe
+        status_response: CheckoutStatusResponse = await stripe_checkout.get_checkout_status(session_id)
+        
+        # Find transaction in database
+        transaction = await db.payment_transactions.find_one({"session_id": session_id})
+        
+        if not transaction:
+            raise HTTPException(status_code=404, detail="Transaction not found")
+        
+        # Update transaction status if payment is complete and not already updated
+        if status_response.payment_status == "paid" and transaction["payment_status"] != "paid":
+            await db.payment_transactions.update_one(
+                {"session_id": session_id, "payment_status": {"$ne": "paid"}},
+                {
+                    "$set": {
+                        "payment_status": "paid",
+                        "status": "completed", 
+                        "updated_at": datetime.utcnow()
+                    }
+                }
+            )
+        elif status_response.status == "expired":
+            await db.payment_transactions.update_one(
+                {"session_id": session_id},
+                {
+                    "$set": {
+                        "payment_status": "expired",
+                        "status": "expired",
+                        "updated_at": datetime.utcnow()
+                    }
+                }
+            )
+        
+        return {
+            "session_id": session_id,
+            "payment_status": status_response.payment_status,
+            "status": status_response.status,
+            "amount": status_response.amount_total / 100,  # Convert from cents
+            "currency": status_response.currency
+        }
+        
+    except Exception as e:
+        logger.error(f"Error checking donation status: {e}")
+        raise HTTPException(status_code=500, detail="Failed to check payment status")
+
+@api_router.post("/webhook/stripe")
+async def stripe_webhook(request: Request):
+    """Handle Stripe webhooks"""
+    try:
+        body = await request.body()
+        stripe_signature = request.headers.get("Stripe-Signature")
+        
+        if not stripe_signature:
+            raise HTTPException(status_code=400, detail="Missing Stripe signature")
+        
+        # Initialize Stripe checkout for webhook handling
+        stripe_checkout = StripeCheckout(api_key=stripe_api_key, webhook_url="")
+        
+        # Handle webhook
+        webhook_response = await stripe_checkout.handle_webhook(body, stripe_signature)
+        
+        # Update transaction based on webhook event
+        if webhook_response.event_type == "checkout.session.completed":
+            await db.payment_transactions.update_one(
+                {"session_id": webhook_response.session_id},
+                {
+                    "$set": {
+                        "payment_status": webhook_response.payment_status,
+                        "status": "completed",
+                        "updated_at": datetime.utcnow()
+                    }
+                }
+            )
+        
+        return {"status": "success"}
+        
+    except Exception as e:
+        logger.error(f"Stripe webhook error: {e}")
+        raise HTTPException(status_code=400, detail="Webhook processing failed")
+
 @api_router.get("/spiritual-teaching", response_model=SpiritualTeachingResponse)
 async def get_spiritual_teaching(target_date: Optional[str] = None):
     """Get AI-generated spiritual teaching. If no date provided, uses today."""
