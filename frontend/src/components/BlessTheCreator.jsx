@@ -210,9 +210,23 @@ export const BlessTheCreator = () => {
         </CardContent>
       </Card>
 
-      {/* Blessing Confirmation */}
-      {showBlessingMessage && (
-        <Card className="bg-gradient-to-r from-emerald-50 to-teal-50 border-emerald-200 animate-pulse">
+      {/* Payment Status Messages */}
+      {paymentStatus === 'checking' && (
+        <Card className="bg-gradient-to-r from-blue-50 to-indigo-50 border-blue-200">
+          <CardContent className="pt-6">
+            <div className="text-center">
+              <Loader2 className="w-8 h-8 text-blue-500 animate-spin mx-auto mb-4" />
+              <h3 className="text-xl font-semibold text-blue-800 mb-2">
+                Verifying Your Blessing... 💫
+              </h3>
+              <p className="text-blue-700">Please wait while we confirm your divine gift.</p>
+            </div>
+          </CardContent>
+        </Card>
+      )}
+
+      {paymentStatus === 'success' && showBlessingMessage && (
+        <Card className="bg-gradient-to-r from-emerald-50 to-teal-50 border-emerald-200">
           <CardContent className="pt-6">
             <div className="text-center">
               <div className="flex justify-center mb-4">
@@ -230,6 +244,51 @@ export const BlessTheCreator = () => {
                   "I bless the creator with the Divine Design of abundance and joy. May this gift multiply blessings for all."
                 </p>
               </div>
+            </div>
+          </CardContent>
+        </Card>
+      )}
+
+      {paymentStatus === 'cancelled' && (
+        <Card className="bg-gradient-to-r from-amber-50 to-yellow-50 border-amber-200">
+          <CardContent className="pt-6">
+            <div className="text-center">
+              <h3 className="text-xl font-semibold text-amber-800 mb-2">
+                Blessing Paused 🙏
+              </h3>
+              <p className="text-amber-700">
+                No worries! Your worth isn't determined by giving. The blessing is always available when your heart feels called.
+              </p>
+            </div>
+          </CardContent>
+        </Card>
+      )}
+
+      {paymentStatus === 'expired' && (
+        <Card className="bg-gradient-to-r from-gray-50 to-slate-50 border-gray-200">
+          <CardContent className="pt-6">
+            <div className="text-center">
+              <h3 className="text-xl font-semibold text-gray-800 mb-2">
+                Session Expired ⏰
+              </h3>
+              <p className="text-gray-700">
+                The payment window has closed. Feel free to try again whenever your heart desires to give.
+              </p>
+            </div>
+          </CardContent>
+        </Card>
+      )}
+
+      {paymentStatus === 'error' && (
+        <Card className="bg-gradient-to-r from-red-50 to-pink-50 border-red-200">
+          <CardContent className="pt-6">
+            <div className="text-center">
+              <h3 className="text-xl font-semibold text-red-800 mb-2">
+                Technical Issue 🔧
+              </h3>
+              <p className="text-red-700">
+                There was an issue processing your blessing. Your intention matters most. Please try again or contact support.
+              </p>
             </div>
           </CardContent>
         </Card>
