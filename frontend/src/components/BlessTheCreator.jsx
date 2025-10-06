@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Card, CardHeader, CardTitle, CardContent } from './ui/card';
 import { Button } from './ui/button';
-import { Heart, Gift, Star, Users } from 'lucide-react';
+import { Heart, Gift, Star, Users, Loader2 } from 'lucide-react';
 
 export const BlessTheCreator = () => {
   const [showBlessingMessage, setShowBlessingMessage] = useState(false);
