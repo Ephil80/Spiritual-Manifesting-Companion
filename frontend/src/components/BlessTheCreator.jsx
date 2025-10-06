@@ -157,7 +157,8 @@ export const BlessTheCreator = () => {
                 <Button
                   variant="outline"
                   className="border-amber-300 text-amber-700 hover:bg-amber-50"
-                  onClick={() => handleBlessing('custom')}
+                  onClick={() => window.open('https://paypal.me/PhilipTownley', '_blank')}
+                  disabled={isProcessing}
                 >
                   Custom Amount
                 </Button>
