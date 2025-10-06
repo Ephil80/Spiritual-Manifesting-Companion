@@ -44,53 +44,9 @@ export const BlessTheCreator = () => {
     }
   };
 
-  const checkPaymentStatus = async (sessionId) => {
-    try {
-      const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
-      const API = `${BACKEND_URL}/api`;
-      
-      const response = await fetch(`${API}/donations/status/${sessionId}`);
-      if (!response.ok) {
-        throw new Error('Failed to check payment status');
-      }
-
-      const data = await response.json();
-      
-      if (data.payment_status === 'paid') {
-        setPaymentStatus('success');
-        setShowBlessingMessage(true);
-        setTimeout(() => {
-          setShowBlessingMessage(false);
-          setPaymentStatus(null);
-          // Clear URL parameters
-          window.history.replaceState({}, document.title, window.location.pathname);
-        }, 10000);
-      } else if (data.status === 'expired') {
-        setPaymentStatus('expired');
-      } else {
-        // Continue polling if still pending
-        setTimeout(() => checkPaymentStatus(sessionId), 2000);
-      }
-    } catch (error) {
-      console.error('Error checking payment status:', error);
-      setPaymentStatus('error');
-    }
-  };
-
-  // Check for return from Stripe on component mount
+  // No need for complex payment status checking with PayPal - keep it simple
   useEffect(() => {
-    const urlParams = new URLSearchParams(window.location.search);
-    const sessionId = urlParams.get('session_id');
-    const donationSuccess = urlParams.get('donation_success');
-    const donationCancelled = urlParams.get('donation_cancelled');
-
-    if (sessionId && donationSuccess) {
-      setPaymentStatus('checking');
-      checkPaymentStatus(sessionId);
-    } else if (donationCancelled) {
-      setPaymentStatus('cancelled');
-      setTimeout(() => setPaymentStatus(null), 5000);
-    }
+    // Just initialize the component
   }, []);
 
   return (
