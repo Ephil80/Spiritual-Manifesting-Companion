@@ -9,36 +9,37 @@ export const BlessTheCreator = () => {
   const [isProcessing, setIsProcessing] = useState(false);
   const [paymentStatus, setPaymentStatus] = useState(null);
 
-  const handleBlessing = async (packageId) => {
+  // PayPal donation amounts
+  const donationAmounts = {
+    coffee: { amount: 5, name: 'Coffee Blessing' },
+    lunch: { amount: 15, name: 'Lunch Blessing' },
+    sacred: { amount: 33, name: 'Sacred Number' },
+    abundance: { amount: 108, name: 'Divine Abundance' }
+  };
+
+  const handleBlessing = (packageId) => {
     try {
       setIsProcessing(true);
-      const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
-      const API = `${BACKEND_URL}/api`;
-      const originUrl = window.location.origin;
-
-      const response = await fetch(`${API}/donations/checkout`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          package_id: packageId,
-          origin_url: originUrl
-        })
-      });
-
-      if (!response.ok) {
-        throw new Error('Failed to create checkout session');
-      }
-
-      const data = await response.json();
       
-      // Redirect to Stripe Checkout
-      window.location.href = data.checkout_url;
+      const amount = donationAmounts[packageId].amount;
+      const packageName = donationAmounts[packageId].name;
+      
+      // Create PayPal.me URL with amount
+      const paypalUrl = `https://paypal.me/PhilipTownley/${amount}USD`;
+      
+      // Show blessing message
+      setShowBlessingMessage(true);
+      setTimeout(() => {
+        setShowBlessingMessage(false);
+        setIsProcessing(false);
+      }, 8000);
+      
+      // Open PayPal in new tab
+      window.open(paypalUrl, '_blank');
       
     } catch (error) {
       console.error('Payment error:', error);
-      alert('There was an issue processing your blessing. Please try again.');
+      alert('There was an issue opening PayPal. Please try again.');
       setIsProcessing(false);
     }
   };
