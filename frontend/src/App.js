@@ -20,6 +20,8 @@ const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 const API = `${BACKEND_URL}/api`;
 
 const Home = () => {
+  const { getSpiritualText } = useSpiritualSettings();
+  
   const helloWorldApi = async () => {
     try {
       const response = await axios.get(`${API}/`);
