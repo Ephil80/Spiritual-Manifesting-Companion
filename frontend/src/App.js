@@ -172,6 +172,10 @@ const Home = () => {
             <ForgivenessPractice />
           </TabsContent>
           
+          <TabsContent value="settings">
+            <SpiritualSettings />
+          </TabsContent>
+          
           <TabsContent value="gratitude">
             <GratitudeJournal />
           </TabsContent>
