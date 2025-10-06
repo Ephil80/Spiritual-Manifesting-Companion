@@ -142,35 +142,55 @@ export const BlessTheCreator = () => {
             
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               <Button
-                onClick={() => handleBlessing(5)}
-                className="bg-gradient-to-br from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white h-20 flex-col space-y-1"
+                onClick={() => handleBlessing('coffee')}
+                disabled={isProcessing}
+                className="bg-gradient-to-br from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white h-20 flex-col space-y-1 disabled:opacity-50"
               >
-                <span className="text-lg font-semibold">$5</span>
-                <span className="text-xs">Coffee Blessing</span>
+                {isProcessing ? <Loader2 className="w-4 h-4 animate-spin" /> : (
+                  <>
+                    <span className="text-lg font-semibold">$5</span>
+                    <span className="text-xs">Coffee Blessing</span>
+                  </>
+                )}
               </Button>
               
               <Button
-                onClick={() => handleBlessing(15)}
-                className="bg-gradient-to-br from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white h-20 flex-col space-y-1"
+                onClick={() => handleBlessing('lunch')}
+                disabled={isProcessing}
+                className="bg-gradient-to-br from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white h-20 flex-col space-y-1 disabled:opacity-50"
               >
-                <span className="text-lg font-semibold">$15</span>
-                <span className="text-xs">Lunch Blessing</span>
+                {isProcessing ? <Loader2 className="w-4 h-4 animate-spin" /> : (
+                  <>
+                    <span className="text-lg font-semibold">$15</span>
+                    <span className="text-xs">Lunch Blessing</span>
+                  </>
+                )}
               </Button>
               
               <Button
-                onClick={() => handleBlessing(33)}
-                className="bg-gradient-to-br from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white h-20 flex-col space-y-1"
+                onClick={() => handleBlessing('sacred')}
+                disabled={isProcessing}
+                className="bg-gradient-to-br from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white h-20 flex-col space-y-1 disabled:opacity-50"
               >
-                <span className="text-lg font-semibold">$33</span>
-                <span className="text-xs">Sacred Number</span>
+                {isProcessing ? <Loader2 className="w-4 h-4 animate-spin" /> : (
+                  <>
+                    <span className="text-lg font-semibold">$33</span>
+                    <span className="text-xs">Sacred Number</span>
+                  </>
+                )}
               </Button>
               
               <Button
-                onClick={() => handleBlessing(108)}
-                className="bg-gradient-to-br from-rose-500 to-rose-600 hover:from-rose-600 hover:to-rose-700 text-white h-20 flex-col space-y-1"
+                onClick={() => handleBlessing('abundance')}
+                disabled={isProcessing}
+                className="bg-gradient-to-br from-rose-500 to-rose-600 hover:from-rose-600 hover:to-rose-700 text-white h-20 flex-col space-y-1 disabled:opacity-50"
               >
-                <span className="text-lg font-semibold">$108</span>
-                <span className="text-xs">Divine Abundance</span>
+                {isProcessing ? <Loader2 className="w-4 h-4 animate-spin" /> : (
+                  <>
+                    <span className="text-lg font-semibold">$108</span>
+                    <span className="text-xs">Divine Abundance</span>
+                  </>
+                )}
               </Button>
             </div>
             
