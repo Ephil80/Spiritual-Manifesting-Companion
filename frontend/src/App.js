@@ -53,28 +53,27 @@ const Home = () => {
       <div className="max-w-6xl mx-auto px-4 py-6">
         <div className="bg-gradient-to-r from-indigo-50 via-purple-50 to-pink-50 p-8 rounded-2xl border border-indigo-100 mb-8">
           <div className="text-center">
-            <h2 className="text-2xl font-semibold text-gray-800 mb-4">Understanding the Divine Design</h2>
+            <h2 className="text-2xl font-semibold text-gray-800 mb-4">The Power of Spiritual Transformation</h2>
             <div className="max-w-4xl mx-auto text-gray-700 space-y-4">
               <p className="text-lg leading-relaxed">
-                Everything in the universe has a <span className="font-semibold text-indigo-700">Divine Design</span> - and we are no different. 
-                Each of us has a unique divine blueprint guided by <span className="font-semibold text-indigo-700">{getSpiritualText.getDivine()}</span> through <span className="font-semibold text-indigo-700">{getSpiritualText.getWisdom()}</span> and <span className="font-semibold text-indigo-700">{getSpiritualText.getLove()}</span> for our highest evolution and deepest joy.
+                Each of us has a unique spiritual blueprint guided by <span className="font-semibold text-indigo-700">{getSpiritualText.getDivine()}</span> through <span className="font-semibold text-indigo-700">{getSpiritualText.getWisdom()}</span> and <span className="font-semibold text-indigo-700">{getSpiritualText.getLove()}</span> for our highest evolution and deepest joy.
               </p>
               <p className="text-lg leading-relaxed">
                 The challenge arises when our <span className="font-semibold text-red-600">ego</span> decides it knows better than infinite wisdom and unconditional love. 
-                The Divine Design, flowing from perfect goodness, honors our free will and cannot override our choices, even when they lead us away from our highest path.
+                Your ego honors your free will and cannot override your choices, even when they lead you away from your highest path.
               </p>
               <p className="text-lg leading-relaxed">
-                Here's the beautiful truth: <span className="font-semibold text-green-600">Divine Design can create beauty from any chaos</span> - even the problems your ego creates. 
+                Here's the beautiful truth: <span className="font-semibold text-green-600">Spirit can create beauty from any chaos</span> - even the problems your ego creates. 
                 A relationship crisis can lead to deeper love. A career setback can redirect you to your true purpose. 
                 Conversely, <span className="font-semibold text-red-600">ego can create chaos from beauty</span> - turning blessings into problems through fear and control.
               </p>
               <p className="text-lg leading-relaxed">
-                When we align with the Divine Design through <span className="font-semibold text-purple-600">gratitude, blessings, forgiveness, surrender, and conscious manifestation</span>, 
-                we open ourselves to divine guidance and allow our highest good to unfold naturally.
+                When we align with our highest good through <span className="font-semibold text-purple-600">gratitude, blessings, kindness, forgiveness, surrender, and conscious manifestation</span>, 
+                we open ourselves to divine guidance and allow miracles to unfold naturally.
               </p>
               <div className="bg-white/80 p-4 rounded-lg mt-6">
                 <p className="text-indigo-800 italic font-medium">
-                  "Trust the Divine Design. Your ego may think it knows the way, but your soul knows the truth."
+                  "Your ego may think it knows the way, but your soul knows the truth. Trust the process."
                 </p>
               </div>
             </div>
