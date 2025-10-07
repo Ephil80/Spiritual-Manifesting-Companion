@@ -133,12 +133,12 @@ export const SpiritualSettings = () => {
       {/* Introduction */}
       <Card className="bg-gradient-to-r from-indigo-50 to-purple-50 border-indigo-200">
         <CardHeader>
-          <CardTitle className="text-lg text-indigo-800">Personalize Your Divine Design Experience</CardTitle>
+          <CardTitle className="text-lg text-indigo-800">Personalize Your Spiritual Experience</CardTitle>
         </CardHeader>
         <CardContent>
           <p className="text-indigo-700 leading-relaxed">
-            The core teachings of Divine Design - ego vs soul, grace, transformation, surrender, forgiveness, and manifestation - 
-            are universal truths that work within any spiritual framework. Choose how you'd like to connect with the divine source 
+            The core practices here - gratitude, kindness, forgiveness, surrender, and manifestation - 
+            are universal tools that work within any spiritual framework. Choose how you'd like to connect with the divine source 
             that guides your journey.
           </p>
         </CardContent>
