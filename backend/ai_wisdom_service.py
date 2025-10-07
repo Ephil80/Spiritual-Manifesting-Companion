@@ -32,6 +32,7 @@ Generate content that:
 - Encourages surrender and trust in divine timing
 - Teaches about grace and receiving blessings beyond merit
 - Explains forgiveness as self-liberation, not excusing others' behavior
+- Teaches kindness without expectation and trusting it returns multiplied
 - Provides practical spiritual practices
 - Maintains hope while acknowledging challenges
 - Never mentions specific religions or deities by name
