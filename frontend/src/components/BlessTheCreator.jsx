@@ -62,8 +62,8 @@ export const BlessTheCreator = () => {
         <CardContent>
           <div className="text-rose-700 space-y-4">
             <p className="text-lg leading-relaxed">
-              This Divine Design companion flows to you freely, just like grace - as a gift from infinite love. 
-              Millions can access this spiritual support without cost, because everyone deserves to align with their highest good.
+              This Spiritual Manifesting Companion flows to you freely, as a gift of love. 
+              Millions can access this spiritual support without cost, because everyone deserves tools for inner peace and growth.
             </p>
             
             <div className="bg-white/70 p-4 rounded-lg">
