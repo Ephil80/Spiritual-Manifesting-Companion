@@ -54,27 +54,27 @@ const Home = () => {
       <div className="max-w-6xl mx-auto px-4 py-6">
         <div className="bg-gradient-to-r from-indigo-50 via-purple-50 to-pink-50 p-8 rounded-2xl border border-indigo-100 mb-8">
           <div className="text-center">
-            <h2 className="text-2xl font-semibold text-gray-800 mb-4">The Power of Spiritual Transformation</h2>
+            <h2 className="text-2xl font-semibold text-gray-800 mb-4">Welcome to Your Spiritual Journey</h2>
             <div className="max-w-4xl mx-auto text-gray-700 space-y-4">
               <p className="text-lg leading-relaxed">
-                Each of us has a unique spiritual blueprint guided by <span className="font-semibold text-indigo-700">{getSpiritualText.getDivine()}</span> through <span className="font-semibold text-indigo-700">{getSpiritualText.getWisdom()}</span> and <span className="font-semibold text-indigo-700">{getSpiritualText.getLove()}</span> for our highest evolution and deepest joy.
+                Life can feel overwhelming sometimes, but you're not alone on this journey. Whether you're spiritual, religious, 
+                or just curious about personal growth, this companion is here to support you with gentle practices that actually work.
               </p>
               <p className="text-lg leading-relaxed">
-                The challenge arises when our <span className="font-semibold text-red-600">ego</span> decides it knows better than infinite wisdom and unconditional love. 
-                Your ego honors your free will and cannot override your choices, even when they lead you away from your highest path.
+                We all have two voices in our heads: the worried, controlling one (let's call it ego) and the calm, wise one (your inner knowing). 
+                The worried voice means well but often creates stress by trying to control everything. Your wise voice knows there's a bigger picture.
               </p>
               <p className="text-lg leading-relaxed">
-                Here's the beautiful truth: <span className="font-semibold text-green-600">Spirit can create beauty from any chaos</span> - even the problems your ego creates. 
-                A relationship crisis can lead to deeper love. A career setback can redirect you to your true purpose. 
-                Conversely, <span className="font-semibold text-red-600">ego can create chaos from beauty</span> - turning blessings into problems through fear and control.
+                Here's something beautiful: <span className="font-semibold text-green-600">life has a way of turning challenges into growth</span>. 
+                Sometimes what feels like a setback opens doors you never saw coming. And sometimes our worry-brain can turn good things into stress through overthinking.
               </p>
               <p className="text-lg leading-relaxed">
-                When we align with our highest good through <span className="font-semibold text-purple-600">gratitude, blessings, kindness, forgiveness, surrender, and conscious manifestation</span>, 
-                we open ourselves to divine guidance and allow miracles to unfold naturally.
+                The practices here - <span className="font-semibold text-purple-600">gratitude, kindness, forgiveness, and letting go</span> - 
+                are simple tools to help you connect with your calm, wise inner voice more often.
               </p>
               <div className="bg-white/80 p-4 rounded-lg mt-6">
                 <p className="text-indigo-800 italic font-medium">
-                  "Your ego may think it knows the way, but your soul knows the truth. Trust the process."
+                  "Your worried mind thinks it needs to figure everything out, but your wise heart knows things unfold in their own perfect way."
                 </p>
               </div>
             </div>
