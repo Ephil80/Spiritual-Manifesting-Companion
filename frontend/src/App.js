@@ -215,7 +215,7 @@ const Home = () => {
       <footer className="bg-white/50 backdrop-blur-lg border-t border-indigo-100 mt-16">
         <div className="max-w-6xl mx-auto px-4 py-8">
           <div className="text-center text-gray-600">
-            <p className="mb-2">"Transform your life through sacred practices and spiritual wisdom"</p>
+            <p className="mb-2">"Your friendly companion for spiritual growth and inner peace"</p>
             <p className="text-sm">✨ The Spiritual Manifesting Companion ✨</p>
           </div>
         </div>
