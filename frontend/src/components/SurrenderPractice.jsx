@@ -41,10 +41,11 @@ export const SurrenderPractice = () => {
       </div>
 
       <div className="bg-teal-50 p-6 rounded-lg border border-teal-200">
-        <h3 className="text-lg font-medium text-teal-800 mb-2">Surrender & the Divine Design</h3>
-        <p className="text-teal-700 mb-4">
-          Surrender is the ego's greatest teacher. When we release our need to control outcomes and trust the Divine Design, 
-          we step out of our own way and allow infinite wisdom to guide us to solutions beyond our limited perspective.
+        <h3 className="text-lg font-medium text-teal-800 mb-2">About Surrender & Writing to Divine Design</h3>
+        <p className="text-teal-700">
+          Sometimes we need to pour our hearts out to something greater than ourselves. Writing a letter to Divine Design 
+          (or whatever you call the loving intelligence of the universe) helps you release control and trust that 
+          there are solutions beyond what you can see right now. It's like having a conversation with your wisest, most loving friend.
         </p>
         <div className="bg-white/70 p-4 rounded-lg">
           <h4 className="font-semibold text-teal-800 mb-2">Daily Benefits:</h4>
