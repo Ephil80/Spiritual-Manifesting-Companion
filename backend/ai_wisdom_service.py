@@ -59,12 +59,13 @@ Keep quotes concise but profound. Make insights accessible but spiritually rich.
             prompt = f"""Generate today's Divine Design wisdom for {target_date or date.today().strftime('%B %d, %Y')}.
 
 Create a unique spiritual teaching that focuses on one of these themes:
-1. The ego vs Divine Design (how ego creates problems while Divine Design creates solutions)
+1. The ego vs soul (how ego creates problems while soul creates solutions)
 2. Grace and receiving blessings beyond what we think we deserve
-3. Divine transformation (beauty from chaos, or ego creating chaos from beauty)
-4. Surrender and trust in infinite wisdom
+3. Spiritual transformation (beauty from chaos, or ego creating chaos from beauty)
+4. Surrender to divine wisdom (writing letters to Divine Design for guidance)
 5. Forgiveness as emotional freedom (your gift to yourself, not letting others off the hook)
-6. Practical spirituality for daily life
+6. Kindness without expectation (giving freely and trusting it returns multiplied)
+7. Practical spirituality for daily life
 
 Include the seed: {date_seed} in your inspiration but don't mention it in the response.
 
