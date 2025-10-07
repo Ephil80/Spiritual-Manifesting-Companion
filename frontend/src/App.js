@@ -42,9 +42,9 @@ const Home = () => {
         <div className="max-w-6xl mx-auto px-4 py-6">
           <div className="text-center">
             <h1 className="text-4xl font-bold bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
-              ✨ The Divine Design
+              ✨ The Spiritual Manifesting Companion
             </h1>
-            <p className="text-lg text-gray-600 mt-2">Spiritual Manifesting Companion</p>
+            <p className="text-lg text-gray-600 mt-2">Transform Your Life Through Sacred Practices</p>
           </div>
         </div>
       </header>
