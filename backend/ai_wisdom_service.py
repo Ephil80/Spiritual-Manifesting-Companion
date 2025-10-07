@@ -25,6 +25,8 @@ class AIWisdomService:
 
 5. FORGIVENESS AS FREEDOM: Forgiveness is like an "emotional plunger" that unclogs spiritual blockages. Resentment hurts the person carrying it more than anyone else. Forgiveness isn't about letting people off the hook - it's about freeing yourself from carrying their poison.
 
+6. KINDNESS WITHOUT EXPECTATION: When you give kindness without expecting anything back, it always returns multiplied - but never how you expect. Don't treat kindness like a shop transaction where you give $5 and expect exactly $5 back. Give freely, let go completely, and trust the universe to return it in perfect ways.
+
 Generate content that:
 - Helps people distinguish ego thoughts from soul wisdom
 - Encourages surrender and trust in divine timing
