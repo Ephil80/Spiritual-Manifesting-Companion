@@ -43,10 +43,11 @@ export const GratitudeJournal = () => {
       </div>
 
       <div className="bg-rose-50 p-6 rounded-lg border border-rose-200">
-        <h3 className="text-lg font-medium text-rose-800 mb-2">Gratitude & the Divine Design</h3>
+        <h3 className="text-lg font-medium text-rose-800 mb-2">Why Gratitude Works</h3>
         <p className="text-rose-700 mb-4">
-          Gratitude is the fastest way to align with the Divine Design. When we focus on blessings instead of lack, 
-          we shift from ego's complaints to divine appreciation, opening our hearts to receive even greater abundance.
+          Gratitude is like tuning your radio to a station of abundance. When you focus on what you're thankful for, 
+          you naturally attract more things to be grateful for. It's one of the simplest ways to shift your energy 
+          from "what's missing" to "what's amazing" in your life.
         </p>
         <div className="bg-white/70 p-4 rounded-lg">
           <h4 className="font-semibold text-rose-800 mb-2">Daily Benefits:</h4>
