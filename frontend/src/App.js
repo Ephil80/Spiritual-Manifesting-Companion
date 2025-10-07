@@ -108,6 +108,13 @@ const Home = () => {
               <span className="hidden sm:inline">Bless</span>
             </TabsTrigger>
             <TabsTrigger 
+              value="kindness" 
+              className="flex items-center space-x-2 data-[state=active]:bg-pink-500 data-[state=active]:text-white transition-all duration-200"
+            >
+              <Smile className="w-4 h-4" />
+              <span className="hidden sm:inline">Kindness</span>
+            </TabsTrigger>
+            <TabsTrigger 
               value="forgiveness" 
               className="flex items-center space-x-2 data-[state=active]:bg-green-500 data-[state=active]:text-white transition-all duration-200"
             >
