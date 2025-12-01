@@ -42,20 +42,24 @@ export const SurrenderPractice = () => {
 
       <div className="bg-teal-50 p-6 rounded-lg border border-teal-200">
         <h3 className="text-lg font-medium text-teal-800 mb-2">About Surrender & Writing to Divine Design</h3>
-        <p className="text-teal-700">
-          Sometimes we need to pour our hearts out to something greater than ourselves. Writing a letter to Divine Design 
-          (or whatever you call the loving intelligence of the universe) helps you release control and trust that 
-          there are solutions beyond what you can see right now. It's like having a conversation with your wisest, most loving friend.
+        <p className="text-teal-700 mb-4">
+          Here's something beautiful: The Divine Design for your life is better than you could ever imagine or create yourself. 
+          Each of us has our own unique blueprint - like our own unique fingerprint - perfectly crafted for our highest joy and purpose.
+        </p>
+        <p className="text-teal-700 mb-4">
+          The reason we often don't experience this perfection is simple: we were given free will, and the divine can't go against that. 
+          So our ego creates its own plan, thinking it knows what will bring us everything we want. But our ego's plan is often imperfect and limited.
+        </p>
+        <p className="text-teal-700 mb-4">
+          To manifest our Divine Design, we must surrender to it. Writing a heartfelt letter is the most effective way to do this - 
+          pour out your struggles, your efforts, your feelings, then completely release control to Divine wisdom.
         </p>
         <div className="bg-white/70 p-4 rounded-lg">
-          <h4 className="font-semibold text-teal-800 mb-2">Daily Benefits:</h4>
-          <ul className="text-teal-700 space-y-1 text-sm">
-            <li>• Releases ego's need to control and opens to divine flow</li>
-            <li>• Transforms anxiety into peaceful trust in divine timing</li>
-            <li>• Allows divine solutions beyond your current understanding</li>
-            <li>• Frees mental energy for creative and joyful pursuits</li>
-            <li>• Deepens your connection to divine guidance and intuition</li>
-          </ul>
+          <p className="text-teal-800 font-semibold mb-2">✨ Why This Works So Powerfully:</p>
+          <p className="text-teal-700 text-sm italic">
+            When you truly surrender through letter writing, miracles usually happen within days - sometimes even hours. 
+            You're stepping out of your ego's limited plan and allowing your perfect Divine blueprint to unfold.
+          </p>
         </div>
       </div>
 
