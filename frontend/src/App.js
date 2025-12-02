@@ -85,123 +85,77 @@ const Home = () => {
       {/* Main Content */}
       <main className="max-w-6xl mx-auto px-4 py-8">
         <Tabs defaultValue="inspiration" className="w-full">
-          {/* Clean Navigation Menu */}
-          <div className="mb-8">
-            <div className="bg-white/70 backdrop-blur-sm p-6 rounded-2xl border border-indigo-100 shadow-lg">
-              
-              {/* Daily Support Section */}
-              <div className="mb-6">
-                <h3 className="text-sm font-bold text-gray-700 mb-3 uppercase tracking-wider">📚 Daily Support</h3>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                  <TabsTrigger 
-                    value="inspiration" 
-                    className="flex items-center space-x-3 data-[state=active]:bg-amber-500 data-[state=active]:text-white bg-amber-50 hover:bg-amber-100 transition-all duration-200 justify-start p-4 rounded-lg border border-amber-200"
-                  >
-                    <Lightbulb className="w-5 h-5" />
-                    <div className="text-left">
-                      <div className="font-medium">Daily Inspiration</div>
-                      <div className="text-xs text-gray-500 data-[state=active]:text-white/80">Wisdom & spiritual teachings</div>
-                    </div>
-                  </TabsTrigger>
-                  <TabsTrigger 
-                    value="reminders" 
-                    className="flex items-center space-x-3 data-[state=active]:bg-indigo-500 data-[state=active]:text-white bg-indigo-50 hover:bg-indigo-100 transition-all duration-200 justify-start p-4 rounded-lg border border-indigo-200"
-                  >
-                    <Bell className="w-5 h-5" />
-                    <div className="text-left">
-                      <div className="font-medium">Smart Reminders</div>
-                      <div className="text-xs text-gray-500 data-[state=active]:text-white/80">Notifications & gentle nudges</div>
-                    </div>
-                  </TabsTrigger>
-                </div>
+          {/* Organized Navigation with Section Headers */}
+          <div className="mb-8 bg-white/70 backdrop-blur-sm p-6 rounded-2xl border border-indigo-100 shadow-lg">
+            
+            {/* Section Headers */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+              <div className="text-center">
+                <h3 className="text-sm font-bold text-amber-600 mb-1 uppercase tracking-wider">📚 Daily Support</h3>
+                <p className="text-xs text-gray-500">Inspiration & reminders</p>
               </div>
-
-              {/* Spiritual Practices Section */}
-              <div className="mb-6">
-                <h3 className="text-sm font-bold text-gray-700 mb-3 uppercase tracking-wider">🙏 Spiritual Practices</h3>
-                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3">
-                  <TabsTrigger 
-                    value="gratitude" 
-                    className="flex flex-col items-center space-y-2 data-[state=active]:bg-rose-500 data-[state=active]:text-white bg-rose-50 hover:bg-rose-100 transition-all duration-200 p-4 rounded-lg border border-rose-200"
-                  >
-                    <Heart className="w-5 h-5" />
-                    <span className="text-xs font-medium">Gratitude</span>
-                  </TabsTrigger>
-                  <TabsTrigger 
-                    value="blessings" 
-                    className="flex flex-col items-center space-y-2 data-[state=active]:bg-blue-500 data-[state=active]:text-white bg-blue-50 hover:bg-blue-100 transition-all duration-200 p-4 rounded-lg border border-blue-200"
-                  >
-                    <Users className="w-5 h-5" />
-                    <span className="text-xs font-medium">Blessings</span>
-                  </TabsTrigger>
-                  <TabsTrigger 
-                    value="kindness" 
-                    className="flex flex-col items-center space-y-2 data-[state=active]:bg-pink-500 data-[state=active]:text-white bg-pink-50 hover:bg-pink-100 transition-all duration-200 p-4 rounded-lg border border-pink-200"
-                  >
-                    <Smile className="w-5 h-5" />
-                    <span className="text-xs font-medium">Kindness</span>
-                  </TabsTrigger>
-                  <TabsTrigger 
-                    value="forgiveness" 
-                    className="flex flex-col items-center space-y-2 data-[state=active]:bg-green-500 data-[state=active]:text-white bg-green-50 hover:bg-green-100 transition-all duration-200 p-4 rounded-lg border border-green-200"
-                  >
-                    <Wrench className="w-5 h-5" />
-                    <span className="text-xs font-medium">Forgiveness</span>
-                  </TabsTrigger>
-                  <TabsTrigger 
-                    value="surrender" 
-                    className="flex flex-col items-center space-y-2 data-[state=active]:bg-teal-500 data-[state=active]:text-white bg-teal-50 hover:bg-teal-100 transition-all duration-200 p-4 rounded-lg border border-teal-200"
-                  >
-                    <Bird className="w-5 h-5" />
-                    <span className="text-xs font-medium">Surrender</span>
-                  </TabsTrigger>
-                  <TabsTrigger 
-                    value="manifesting" 
-                    className="flex flex-col items-center space-y-2 data-[state=active]:bg-violet-500 data-[state=active]:text-white bg-violet-50 hover:bg-violet-100 transition-all duration-200 p-4 rounded-lg border border-violet-200"
-                  >
-                    <Sparkles className="w-5 h-5" />
-                    <span className="text-xs font-medium">Manifesting</span>
-                  </TabsTrigger>
-                </div>
+              <div className="text-center">
+                <h3 className="text-sm font-bold text-purple-600 mb-1 uppercase tracking-wider">🙏 Spiritual Practices</h3>
+                <p className="text-xs text-gray-500">Core practices for growth</p>
               </div>
-
-              {/* Tools & Settings Section */}
-              <div>
-                <h3 className="text-sm font-bold text-gray-700 mb-3 uppercase tracking-wider">⚙️ Tools & Settings</h3>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
-                  <TabsTrigger 
-                    value="banishing" 
-                    className="flex items-center space-x-3 data-[state=active]:bg-red-500 data-[state=active]:text-white bg-red-50 hover:bg-red-100 transition-all duration-200 justify-start p-4 rounded-lg border border-red-200"
-                  >
-                    <Shield className="w-5 h-5" />
-                    <div className="text-left">
-                      <div className="font-medium">Clear Negativity</div>
-                      <div className="text-xs text-gray-500 data-[state=active]:text-white/80">Release what no longer serves</div>
-                    </div>
-                  </TabsTrigger>
-                  <TabsTrigger 
-                    value="bless" 
-                    className="flex items-center space-x-3 data-[state=active]:bg-rose-600 data-[state=active]:text-white bg-rose-50 hover:bg-rose-100 transition-all duration-200 justify-start p-4 rounded-lg border border-rose-200"
-                  >
-                    <Gift className="w-5 h-5" />
-                    <div className="text-left">
-                      <div className="font-medium">Bless the Creator</div>
-                      <div className="text-xs text-gray-500 data-[state=active]:text-white/80">Support this free app</div>
-                    </div>
-                  </TabsTrigger>
-                  <TabsTrigger 
-                    value="settings" 
-                    className="flex items-center space-x-3 data-[state=active]:bg-gray-500 data-[state=active]:text-white bg-gray-50 hover:bg-gray-100 transition-all duration-200 justify-start p-4 rounded-lg border border-gray-200"
-                  >
-                    <Settings className="w-5 h-5" />
-                    <div className="text-left">
-                      <div className="font-medium">Preferences</div>
-                      <div className="text-xs text-gray-500 data-[state=active]:text-white/80">Customize your experience</div>
-                    </div>
-                  </TabsTrigger>
-                </div>
+              <div className="text-center">
+                <h3 className="text-sm font-bold text-gray-600 mb-1 uppercase tracking-wider">⚙️ Tools & Support</h3>
+                <p className="text-xs text-gray-500">Advanced tools & preferences</p>
               </div>
             </div>
+
+            {/* Single TabsList with visual organization */}
+            <TabsList className="grid grid-cols-2 md:grid-cols-11 bg-white/50 p-2 rounded-xl gap-1">
+              {/* Daily Support (2) */}
+              <TabsTrigger value="inspiration" className="data-[state=active]:bg-amber-500 data-[state=active]:text-white flex flex-col items-center p-2">
+                <Lightbulb className="w-4 h-4 mb-1" />
+                <span className="text-xs hidden md:block">Inspiration</span>
+              </TabsTrigger>
+              <TabsTrigger value="reminders" className="data-[state=active]:bg-indigo-500 data-[state=active]:text-white flex flex-col items-center p-2">
+                <Bell className="w-4 h-4 mb-1" />
+                <span className="text-xs hidden md:block">Reminders</span>
+              </TabsTrigger>
+              
+              {/* Core Practices (6) */}
+              <TabsTrigger value="gratitude" className="data-[state=active]:bg-rose-500 data-[state=active]:text-white flex flex-col items-center p-2">
+                <Heart className="w-4 h-4 mb-1" />
+                <span className="text-xs hidden md:block">Gratitude</span>
+              </TabsTrigger>
+              <TabsTrigger value="blessings" className="data-[state=active]:bg-blue-500 data-[state=active]:text-white flex flex-col items-center p-2">
+                <Users className="w-4 h-4 mb-1" />
+                <span className="text-xs hidden md:block">Blessings</span>
+              </TabsTrigger>
+              <TabsTrigger value="kindness" className="data-[state=active]:bg-pink-500 data-[state=active]:text-white flex flex-col items-center p-2">
+                <Smile className="w-4 h-4 mb-1" />
+                <span className="text-xs hidden md:block">Kindness</span>
+              </TabsTrigger>
+              <TabsTrigger value="forgiveness" className="data-[state=active]:bg-green-500 data-[state=active]:text-white flex flex-col items-center p-2">
+                <Wrench className="w-4 h-4 mb-1" />
+                <span className="text-xs hidden md:block">Forgiveness</span>
+              </TabsTrigger>
+              <TabsTrigger value="surrender" className="data-[state=active]:bg-teal-500 data-[state=active]:text-white flex flex-col items-center p-2">
+                <Bird className="w-4 h-4 mb-1" />
+                <span className="text-xs hidden md:block">Surrender</span>
+              </TabsTrigger>
+              <TabsTrigger value="manifesting" className="data-[state=active]:bg-violet-500 data-[state=active]:text-white flex flex-col items-center p-2">
+                <Sparkles className="w-4 h-4 mb-1" />
+                <span className="text-xs hidden md:block">Manifesting</span>
+              </TabsTrigger>
+              
+              {/* Tools & Support (3) */}
+              <TabsTrigger value="banishing" className="data-[state=active]:bg-red-500 data-[state=active]:text-white flex flex-col items-center p-2">
+                <Shield className="w-4 h-4 mb-1" />
+                <span className="text-xs hidden md:block">Clear</span>
+              </TabsTrigger>
+              <TabsTrigger value="bless" className="data-[state=active]:bg-rose-600 data-[state=active]:text-white flex flex-col items-center p-2">
+                <Gift className="w-4 h-4 mb-1" />
+                <span className="text-xs hidden md:block">Bless</span>
+              </TabsTrigger>
+              <TabsTrigger value="settings" className="data-[state=active]:bg-gray-500 data-[state=active]:text-white flex flex-col items-center p-2">
+                <Settings className="w-4 h-4 mb-1" />
+                <span className="text-xs hidden md:block">Settings</span>
+              </TabsTrigger>
+            </TabsList>
           </div>
 
           <TabsContent value="inspiration">
