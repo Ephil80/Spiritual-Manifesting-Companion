@@ -85,64 +85,53 @@ const Home = () => {
       {/* Main Content */}
       <main className="max-w-6xl mx-auto px-4 py-8">
         <Tabs defaultValue="inspiration" className="w-full">
-          {/* Clean Two-Row Navigation */}
-          <div className="mb-8 space-y-4">
-            {/* Row 1: Daily Support & Main Practices */}
-            <div className="bg-white/70 backdrop-blur-sm p-4 rounded-xl border border-indigo-100">
-              <TabsList className="grid grid-cols-4 md:grid-cols-8 bg-transparent gap-2">
-                <TabsTrigger value="inspiration" className="data-[state=active]:bg-amber-500 data-[state=active]:text-white hover:bg-amber-50 p-3 rounded-lg border border-amber-200">
-                  <Lightbulb className="w-4 h-4 md:mr-2" />
-                  <span className="hidden md:inline">Inspiration</span>
-                </TabsTrigger>
-                <TabsTrigger value="reminders" className="data-[state=active]:bg-indigo-500 data-[state=active]:text-white hover:bg-indigo-50 p-3 rounded-lg border border-indigo-200">
-                  <Bell className="w-4 h-4 md:mr-2" />
-                  <span className="hidden md:inline">Reminders</span>
-                </TabsTrigger>
-                <TabsTrigger value="gratitude" className="data-[state=active]:bg-rose-500 data-[state=active]:text-white hover:bg-rose-50 p-3 rounded-lg border border-rose-200">
-                  <Heart className="w-4 h-4 md:mr-2" />
-                  <span className="hidden md:inline">Gratitude</span>
-                </TabsTrigger>
-                <TabsTrigger value="blessings" className="data-[state=active]:bg-blue-500 data-[state=active]:text-white hover:bg-blue-50 p-3 rounded-lg border border-blue-200">
-                  <Users className="w-4 h-4 md:mr-2" />
-                  <span className="hidden md:inline">Blessings</span>
-                </TabsTrigger>
-                <TabsTrigger value="kindness" className="data-[state=active]:bg-pink-500 data-[state=active]:text-white hover:bg-pink-50 p-3 rounded-lg border border-pink-200">
-                  <Smile className="w-4 h-4 md:mr-2" />
-                  <span className="hidden md:inline">Kindness</span>
-                </TabsTrigger>
-                <TabsTrigger value="forgiveness" className="data-[state=active]:bg-green-500 data-[state=active]:text-white hover:bg-green-50 p-3 rounded-lg border border-green-200">
-                  <Wrench className="w-4 h-4 md:mr-2" />
-                  <span className="hidden md:inline">Forgiveness</span>
-                </TabsTrigger>
-                <TabsTrigger value="surrender" className="data-[state=active]:bg-teal-500 data-[state=active]:text-white hover:bg-teal-50 p-3 rounded-lg border border-teal-200">
-                  <Bird className="w-4 h-4 md:mr-2" />
-                  <span className="hidden md:inline">Surrender</span>
-                </TabsTrigger>
-                <TabsTrigger value="manifesting" className="data-[state=active]:bg-violet-500 data-[state=active]:text-white hover:bg-violet-50 p-3 rounded-lg border border-violet-200">
-                  <Sparkles className="w-4 h-4 md:mr-2" />
-                  <span className="hidden md:inline">Manifesting</span>
-                </TabsTrigger>
-              </TabsList>
-            </div>
-
-            {/* Row 2: Advanced Tools */}
-            <div className="bg-white/70 backdrop-blur-sm p-4 rounded-xl border border-gray-100">
-              <TabsList className="grid grid-cols-3 bg-transparent gap-2">
-                <TabsTrigger value="banishing" className="data-[state=active]:bg-red-500 data-[state=active]:text-white hover:bg-red-50 p-3 rounded-lg border border-red-200 flex items-center justify-center space-x-2">
-                  <Shield className="w-4 h-4" />
-                  <span className="font-medium">Clear Negativity</span>
-                </TabsTrigger>
-                <TabsTrigger value="bless" className="data-[state=active]:bg-rose-600 data-[state=active]:text-white hover:bg-rose-50 p-3 rounded-lg border border-rose-200 flex items-center justify-center space-x-2">
-                  <Gift className="w-4 h-4" />
-                  <span className="font-medium">Bless the Creator</span>
-                </TabsTrigger>
-                <TabsTrigger value="settings" className="data-[state=active]:bg-gray-500 data-[state=active]:text-white hover:bg-gray-50 p-3 rounded-lg border border-gray-200 flex items-center justify-center space-x-2">
-                  <Settings className="w-4 h-4" />
-                  <span className="font-medium">Preferences</span>
-                </TabsTrigger>
-              </TabsList>
-            </div>
-          </div>
+          {/* Simple Clean Navigation */}
+          <TabsList className="grid grid-cols-5 md:grid-cols-11 mb-8 bg-white/70 backdrop-blur-sm p-1 rounded-xl border border-indigo-100">
+            <TabsTrigger value="inspiration" className="flex items-center space-x-1 data-[state=active]:bg-amber-500 data-[state=active]:text-white">
+              <Lightbulb className="w-4 h-4" />
+              <span className="hidden md:inline">Inspiration</span>
+            </TabsTrigger>
+            <TabsTrigger value="reminders" className="flex items-center space-x-1 data-[state=active]:bg-indigo-500 data-[state=active]:text-white">
+              <Bell className="w-4 h-4" />
+              <span className="hidden md:inline">Reminders</span>
+            </TabsTrigger>
+            <TabsTrigger value="gratitude" className="flex items-center space-x-1 data-[state=active]:bg-rose-500 data-[state=active]:text-white">
+              <Heart className="w-4 h-4" />
+              <span className="hidden md:inline">Gratitude</span>
+            </TabsTrigger>
+            <TabsTrigger value="blessings" className="flex items-center space-x-1 data-[state=active]:bg-blue-500 data-[state=active]:text-white">
+              <Users className="w-4 h-4" />
+              <span className="hidden md:inline">Blessings</span>
+            </TabsTrigger>
+            <TabsTrigger value="kindness" className="flex items-center space-x-1 data-[state=active]:bg-pink-500 data-[state=active]:text-white">
+              <Smile className="w-4 h-4" />
+              <span className="hidden md:inline">Kindness</span>
+            </TabsTrigger>
+            <TabsTrigger value="forgiveness" className="flex items-center space-x-1 data-[state=active]:bg-green-500 data-[state=active]:text-white">
+              <Wrench className="w-4 h-4" />
+              <span className="hidden md:inline">Forgiveness</span>
+            </TabsTrigger>
+            <TabsTrigger value="surrender" className="flex items-center space-x-1 data-[state=active]:bg-teal-500 data-[state=active]:text-white">
+              <Bird className="w-4 h-4" />
+              <span className="hidden md:inline">Surrender</span>
+            </TabsTrigger>
+            <TabsTrigger value="manifesting" className="flex items-center space-x-1 data-[state=active]:bg-violet-500 data-[state=active]:text-white">
+              <Sparkles className="w-4 h-4" />
+              <span className="hidden md:inline">Manifesting</span>
+            </TabsTrigger>
+            <TabsTrigger value="banishing" className="flex items-center space-x-1 data-[state=active]:bg-red-500 data-[state=active]:text-white">
+              <Shield className="w-4 h-4" />
+              <span className="hidden md:inline">Clear</span>
+            </TabsTrigger>
+            <TabsTrigger value="bless" className="flex items-center space-x-1 data-[state=active]:bg-rose-600 data-[state=active]:text-white">
+              <Gift className="w-4 h-4" />
+              <span className="hidden md:inline">Bless Creator</span>
+            </TabsTrigger>
+            <TabsTrigger value="settings" className="flex items-center space-x-1 data-[state=active]:bg-gray-500 data-[state=active]:text-white">
+              <Settings className="w-4 h-4" />
+              <span className="hidden md:inline">Settings</span>
+            </TabsTrigger>
+          </TabsList>
 
           <TabsContent value="inspiration">
             <DailyInspiration />
