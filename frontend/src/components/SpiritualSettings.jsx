@@ -3,8 +3,7 @@ import { Card, CardHeader, CardTitle, CardContent } from './ui/card';
 import { Button } from './ui/button';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './ui/select';
 import { Input } from './ui/input';
-import { Settings, Heart, Check, Crown, Lock, Unlock } from 'lucide-react';
-import { usePremium } from '../contexts/PremiumContext';
+import { Settings, Heart, Check } from 'lucide-react';
 
 const spiritualPaths = [
   {
@@ -81,7 +80,6 @@ export const SpiritualSettings = () => {
     love: ''
   });
   const [saved, setSaved] = useState(false);
-  const { isPremium, activatePremium, deactivatePremium } = usePremium();
 
   useEffect(() => {
     // Load saved preferences
@@ -307,66 +305,6 @@ export const SpiritualSettings = () => {
               your ego creates problems while your divine nature (connected to {selectedPath === 'custom' ? customSettings.divine : selectedPathData?.divine}) 
               creates solutions. These practices work within any faith because they address universal spiritual principles.
             </p>
-          </div>
-        </CardContent>
-      </Card>
-
-      {/* Creator/Admin Access Control */}
-      <Card className="bg-gradient-to-br from-slate-50 to-gray-100 border-2 border-slate-300">
-        <CardHeader className="bg-slate-800 text-white">
-          <CardTitle className="text-lg flex items-center gap-2">
-            <Crown className="w-5 h-5 text-amber-400" />
-            Creator Access Panel
-          </CardTitle>
-        </CardHeader>
-        <CardContent className="pt-6">
-          <div className="space-y-4">
-            <div className="flex items-center justify-between p-4 bg-white rounded-lg border-2 border-slate-200">
-              <div className="flex items-center gap-3">
-                {isPremium ? (
-                  <Unlock className="w-6 h-6 text-green-500" />
-                ) : (
-                  <Lock className="w-6 h-6 text-gray-400" />
-                )}
-                <div>
-                  <p className="font-semibold text-gray-800">Premium Access Status</p>
-                  <p className="text-sm text-gray-600">
-                    {isPremium 
-                      ? "✅ Premium features unlocked - You can view all content" 
-                      : "🔒 Viewing as free user - Premium features locked"
-                    }
-                  </p>
-                </div>
-              </div>
-              <Button
-                onClick={isPremium ? deactivatePremium : activatePremium}
-                className={`${
-                  isPremium 
-                    ? 'bg-red-500 hover:bg-red-600' 
-                    : 'bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600'
-                } text-white font-semibold px-6`}
-              >
-                {isPremium ? (
-                  <>
-                    <Lock className="w-4 h-4 mr-2" />
-                    Lock Premium
-                  </>
-                ) : (
-                  <>
-                    <Crown className="w-4 h-4 mr-2" />
-                    Unlock Premium
-                  </>
-                )}
-              </Button>
-            </div>
-            
-            <div className="bg-blue-50 p-4 rounded-lg border border-blue-200">
-              <p className="text-sm text-blue-800">
-                <strong>👨‍💻 Creator Note:</strong> Use this toggle to switch between free and premium views. 
-                This helps you test both user experiences. Premium features include Florence Scovel Shinn's 
-                "The Game of Life" and Neville Goddard's complete manifestation teachings.
-              </p>
-            </div>
           </div>
         </CardContent>
       </Card>

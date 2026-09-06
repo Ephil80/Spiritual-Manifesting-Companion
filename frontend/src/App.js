@@ -15,18 +15,13 @@ import { ForgivenessPractice } from "./components/ForgivenessPractice";
 import { SpiritualSettings } from "./components/SpiritualSettings";
 import { KindnessPractice } from "./components/KindnessPractice";
 import { SpiritualProvider, useSpiritualSettings } from "./contexts/SpiritualContext";
-import { PremiumProvider, usePremium } from "./contexts/PremiumContext";
-import { GameOfLife } from "./components/GameOfLife";
-import { NevilleGoddard } from "./components/NevilleGoddard";
-import { PremiumUpgrade, PremiumLock } from "./components/PremiumUpgrade";
-import { Heart, Users, Sparkles, Bird, Shield, Lightbulb, Bell, Gift, Wrench, Settings, Smile, BookOpen, Crown, Brain } from "lucide-react";
+import { Heart, Users, Sparkles, Bird, Shield, Lightbulb, Bell, Gift, Wrench, Settings, Smile } from "lucide-react";
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 const API = `${BACKEND_URL}/api`;
 
 const Home = () => {
   const { getSpiritualText } = useSpiritualSettings();
-  const { isPremium } = usePremium();
   
   const helloWorldApi = async () => {
     try {
@@ -96,7 +91,7 @@ const Home = () => {
             {/* Daily Support Section */}
             <div className="mb-6">
               <h3 className="text-sm font-bold text-gray-700 mb-3 uppercase tracking-wider">📚 Daily Support</h3>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 <TabsTrigger 
                   value="inspiration" 
                   className="flex items-center space-x-3 data-[state=active]:bg-amber-500 data-[state=active]:text-white bg-amber-50 hover:bg-amber-100 transition-all duration-200 justify-start p-4 rounded-lg border border-amber-200"
@@ -105,32 +100,6 @@ const Home = () => {
                   <div className="text-left">
                     <div className="font-medium">Daily Inspiration</div>
                     <div className="text-xs text-gray-500 data-[state=active]:text-white/80">Wisdom & spiritual teachings</div>
-                  </div>
-                </TabsTrigger>
-                <TabsTrigger 
-                  value="gameoflife" 
-                  className="flex items-center space-x-3 data-[state=active]:bg-purple-500 data-[state=active]:text-white bg-purple-50 hover:bg-purple-100 transition-all duration-200 justify-start p-4 rounded-lg border border-purple-200 relative"
-                >
-                  <BookOpen className="w-5 h-5" />
-                  <div className="text-left flex-1">
-                    <div className="font-medium flex items-center gap-2">
-                      The Game of Life
-                      <Crown className="w-3 h-3 text-amber-500" />
-                    </div>
-                    <div className="text-xs text-gray-500 data-[state=active]:text-white/80">Florence Scovel Shinn</div>
-                  </div>
-                </TabsTrigger>
-                <TabsTrigger 
-                  value="neville" 
-                  className="flex items-center space-x-3 data-[state=active]:bg-indigo-600 data-[state=active]:text-white bg-indigo-50 hover:bg-indigo-100 transition-all duration-200 justify-start p-4 rounded-lg border border-indigo-200 relative"
-                >
-                  <Brain className="w-5 h-5" />
-                  <div className="text-left flex-1">
-                    <div className="font-medium flex items-center gap-2">
-                      Neville Goddard
-                      <Crown className="w-3 h-3 text-amber-500" />
-                    </div>
-                    <div className="text-xs text-gray-500 data-[state=active]:text-white/80">Consciousness is reality</div>
                   </div>
                 </TabsTrigger>
                 <TabsTrigger 
@@ -198,7 +167,7 @@ const Home = () => {
             {/* Tools & Settings Section */}
             <div>
               <h3 className="text-sm font-bold text-gray-700 mb-3 uppercase tracking-wider">⚙️ Tools & Settings</h3>
-              <div className="grid grid-cols-1 md:grid-cols-4 gap-3">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
                 <TabsTrigger 
                   value="banishing" 
                   className="flex items-center space-x-3 data-[state=active]:bg-red-500 data-[state=active]:text-white bg-red-50 hover:bg-red-100 transition-all duration-200 justify-start p-4 rounded-lg border border-red-200"
@@ -229,32 +198,12 @@ const Home = () => {
                     <div className="text-xs text-gray-500 data-[state=active]:text-white/80">Customize your experience</div>
                   </div>
                 </TabsTrigger>
-                {!isPremium && (
-                  <TabsTrigger 
-                    value="upgrade" 
-                    className="flex items-center space-x-3 data-[state=active]:bg-amber-500 data-[state=active]:text-white bg-gradient-to-br from-amber-50 to-orange-50 hover:from-amber-100 hover:to-orange-100 transition-all duration-200 justify-start p-4 rounded-lg border-2 border-amber-300"
-                  >
-                    <Crown className="w-5 h-5 text-amber-600" />
-                    <div className="text-left">
-                      <div className="font-medium text-amber-700">Upgrade to Premium</div>
-                      <div className="text-xs text-amber-600">Unlock master teachings</div>
-                    </div>
-                  </TabsTrigger>
-                )}
               </div>
             </div>
           </TabsList>
 
           <TabsContent value="inspiration">
             <DailyInspiration />
-          </TabsContent>
-          
-          <TabsContent value="gameoflife">
-            {isPremium ? <GameOfLife /> : <PremiumLock featureName="The Game of Life - Florence Scovel Shinn Teachings" />}
-          </TabsContent>
-          
-          <TabsContent value="neville">
-            {isPremium ? <NevilleGoddard /> : <PremiumLock featureName="Neville Goddard - Complete Manifestation Teachings" />}
           </TabsContent>
           
           <TabsContent value="reminders">
@@ -275,10 +224,6 @@ const Home = () => {
           
           <TabsContent value="settings">
             <SpiritualSettings />
-          </TabsContent>
-          
-          <TabsContent value="upgrade">
-            <PremiumUpgrade />
           </TabsContent>
           
           <TabsContent value="gratitude">
@@ -318,19 +263,17 @@ const Home = () => {
 
 function App() {
   return (
-    <PremiumProvider>
-      <SpiritualProvider>
-        <div className="App">
-          <BrowserRouter>
-            <Routes>
-              <Route path="/" element={<Home />}>
-                <Route index element={<Home />} />
-              </Route>
-            </Routes>
-          </BrowserRouter>
-        </div>
-      </SpiritualProvider>
-    </PremiumProvider>
+    <SpiritualProvider>
+      <div className="App">
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Home />}>
+              <Route index element={<Home />} />
+            </Route>
+          </Routes>
+        </BrowserRouter>
+      </div>
+    </SpiritualProvider>
   );
 }
 
